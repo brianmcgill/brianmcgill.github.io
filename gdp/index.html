@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>GDP 2000-2013</title>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<script src="libs/bootstrap.min.js"></script>
+<link rel="stylesheet" href="libs/bootstrap.min.css"> 
+<script src="libs/d3.geo.zoom.js"></script>
+<link rel="stylesheet" type="text/css" href="gdp.css">
+<script src="libs/d3-slider.js"></script>
+<link rel="stylesheet" type="text/css" href="libs/d3-slider.css">
+
+<body>
+
+<div id="key_container">
+  <div id="year" class="center"> 2013 GDP Percentage Growth Rate</div>
+  <div id="key">
+    <svg class="center">
+    <rect x="4" y="0" fill="#b2182b" width="60" height="10"/>
+    <rect x="64" y="0" fill="#d6604d" width="36" height="10"/>
+    <rect x="100" y="0" fill="#f4a582" width="12" height="10"/>
+    <rect x="112" y="0" fill="#fddbc7" width="12" height="10"/>
+    <rect x="124" y="0" fill="#d1e5f0" width="12" height="10"/>
+    <rect x="136" y="0" fill="#92c5de" width="12" height="10"/>
+    <rect x="148" y="0" fill="#4393c3" width="36" height="10"/>
+    <rect x="184" y="0" fill="#2166ac" width="60" height="10"/>
+    <rect x="270" y="0" fill="#ccc" width="15" height="10"/>
+   
+    <text transform="matrix(1 0 0 1 2 23.5)" font-size="11"><</text>
+    <text transform="matrix(1 0 0 1 52 23.5)" font-size="11">-10</text>
+    <text transform="matrix(1 0 0 1 90 23.5)" font-size="11">-4</text>
+    <text transform="matrix(1 0 0 1 104 23.5)" font-size="11">-2</text>
+    <text transform="matrix(1 0 0 1 122 23.5)" font-size="11">0</text>
+    <text transform="matrix(1 0 0 1 134 23.5)" font-size="11">2</text>
+    <text transform="matrix(1 0 0 1 146 23.5)" font-size="11">4</text>
+    <text transform="matrix(1 0 0 1 176 23.5)" font-size="11">10</text>
+    <text transform="matrix(1 0 0 1 240 23.5)" font-size="11">></text>
+    <text transform="matrix(1 0 0 1 268 23.5)" font-size="11">n/a</text>
+    </svg>
+  </div>
+  <div id="sl_container"> <div id="slider"></div> </div>
+</div>
+
+<div id="main" class="main"></div>
+<div id="source">Annual percentage growth rate of GDP at market prices based on constant local currency. Aggregates are based on constant 2005 U.S. dollars. GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Sources: World Bank; CIA World Factbook</div>
+
+<script>
+
+var margin = { top: 10, left: 0, bottom: 10, right: 0 },
+    width = parseInt(d3.select('#main').style('width')),
+    width = width - margin.left - margin.right,
+    mapRatio = 0.75,
+    height = (width / .82) * mapRatio,
+    centered;
+
+var projection = d3.geo.orthographic()
+  .scale(width / 2.2)
+  .rotate([-20,-5,0])
+  .translate([width/2, height/2])
+  .clipAngle(90);
+
+var color = d3.scale.threshold()
+  .domain([-100, -10,  -4, -2, -.001, .001, 2, 4, 10, 100])
+  .range(["green", "#b2182b", "#d6604d", "#f4a582", "#fddbc7", "#f7f7f7" , "#d1e5f0", "#92c5de", "#4393c3", "#2166ac", "#ccc"]);
+
+/*var color = d3.scale.ordinal()
+  .domain(["y", "n", "s", "c", "u"])
+  .range(["#0080c3", "#8B0304", "#ED1C24" ,"#000", "grey"]); */
+
+var path = d3.geo.path()
+    .projection(projection);
+
+var graticule = d3.geo.graticule();
+
+var svg = d3.select("#main")
+    .append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+
+queue()
+  .defer(d3.json, "world110.json")
+  .defer(d3.csv, "gdpGrowth080514.csv")
+  .await(ready);
+
+function ready(error, world, gdp) {
+  var cntyId = {};
+  var cntynameId = {};
+  var codeId = {};
+  var y2000Id = {}; var y2001Id = {}; var y2002Id = {}; var y2003Id = {}; var y2004Id = {}; var y2005Id = {}; 
+  var y2006Id = {}; var y2007Id = {}; var y2008Id = {}; var y2009Id = {}; var y2010Id = {}; var y2011Id = {}; 
+  var y2012Id = {}; var y2013Id = {};
+
+  gdp.forEach(function(d) {
+    cntyId[d.id] = +d.id;
+    cntynameId[d.id] = d.country;
+    codeId[d.id] = d.code;
+    y2000Id[d.id] = d.y2000; y2001Id[d.id] = d.y2001; y2002Id[d.id] = d.y2002; y2003Id[d.id] = d.y2003; 
+    y2004Id[d.id] = d.y2004; y2005Id[d.id] = d.y2005; y2006Id[d.id] = d.y2006; y2007Id[d.id] = d.y2007; 
+    y2008Id[d.id] = d.y2008; y2009Id[d.id] = d.y2009; y2010Id[d.id] = d.y2010; y2011Id[d.id] = d.y2011; 
+    y2012Id[d.id] = d.y2012; y2013Id[d.id] = d.y2013;
+
+  });
+
+svg.append("defs").append("path")
+    .datum({type: "Sphere"})
+    .attr("id", "sphere")
+    .attr("d", path);
+ 
+svg.append("use")
+    .attr("class", "stroke")
+    .attr("xlink:href", "#sphere");
+ 
+svg.append("use")
+    .attr("class", "fill")
+    .attr("xlink:href", "#sphere");
+ 
+svg.append("path")
+    .datum(graticule)
+    .attr("class", "graticule")
+    .attr("d", path);
+
+var countries = topojson.feature(world, world.objects.countries).features;
+
+var g = svg.append("g");
+
+//land
+g.append("g")
+      .attr("id", "country")
+      .selectAll(".country")
+      .data(countries)
+      .enter()
+      .insert("path", ".graticule")
+      .attr("id", function(d) { return d.id; })
+      .attr("class", function(d) { return  codeId[d.id]; })
+      .attr("fill", function(d) { return color(y2013Id[d.id]) ; })
+      .attr("d", path)
+      
+      .on("mouseover", mouseover)
+      .on("mousemove", mousemove)
+      .on("mouseout", mouseout);
+
+//boundaries
+g.insert("path", ".graticule")
+    .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))
+    .attr("class", "boundary")
+    .attr("d", path);
+
+var zoom = d3.geo.zoom().projection(projection)
+    .scaleExtent([0.4 * height, 3 * height]) 
+    .on("zoom.redraw", function() {
+      d3.event.sourceEvent.preventDefault();
+      svg.selectAll("path").attr("d", path);
+    });
+
+d3.select("#main").selectAll("svg").call(zoom);
+
+//---tooltip begin---
+
+var tooltip = d3.select("#main")
+  .append("div")
+  .attr("id", "tooltip")
+  .attr("class", "tooltip");
+
+function updatePosition(event) {
+  var ttid = "#tooltip";
+  var xOffset = 10;
+  var yOffset = 10;
+
+  var ttw = $(ttid).width();
+  var tth = $(ttid).height();
+  var wscrY = $(window).scrollTop();
+  var wscrX = $(window).scrollLeft();
+  var curX = (document.all) ? event.clientX + wscrX : event.pageX;
+  var curY = (document.all) ? event.clientY + wscrY : event.pageY;
+  var ttleft = ((curX - wscrX + xOffset * 2 + ttw) > $(window).width()) ? curX - ttw - xOffset * 2 : curX + xOffset;
+  if (ttleft < wscrX + xOffset) {
+    ttleft = wscrX + xOffset;
+  }
+  var tttop = ((curY - wscrY + yOffset * 2 + tth) > $(window).height()) ? curY - tth - yOffset * 2 : curY + yOffset;
+  if (tttop < wscrY + yOffset) {
+    tttop = curY + yOffset;
+  }
+  $(ttid).css('top', tttop + 'px').css('left', ttleft + 'px');
+}
+
+function mouseover(d) {
+  d3.select(this).classed("selected", true);
+
+  tooltip.style("visibility", "visible");
+};
+
+function mousemove(d, i) {
+  tooltip.style("visibility", "visible")
+      .style("top", d3.event.pageY + "px")
+      .style("left", d3.event.pageX + "px")
+      .html( "<div id='htmlTT'><span class='tipHed'>" + cntynameId[d.id] + "</span></div>") //<hr> 2013 GDP growth: </br> <b>" + y2013Id[d.id] + " pct. pts. </b>
+
+  updatePosition(event);
+};
+
+function mouseout(d) {
+  d3.select(this).classed("selected", false);
+
+  tooltip.style("visibility", "hidden")
+};
+//---tooltip end---
+
+//slider
+d3.select('#slider')
+    .call(d3.slider().axis(d3.svg.axis().ticks(14).tickFormat(d3.format("d")))
+      .min(2000)
+      .max(2013)
+      .step(1)
+      .value(2013)
+      .on("slide", function(evt, value, d) {
+
+      d3.select('#year').text(value + " GDP Percentage Growth Rate");
+
+      g.select("#country").selectAll("path")
+          .transition()
+          .duration(400)
+          .attr("fill", function(d) { return color(eval("y" + value + "Id[d.id]")) })
+
+          })
+
+    );
+
+
+}
+
+</script>
+
+</body>

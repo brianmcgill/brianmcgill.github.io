@@ -1,0 +1,141 @@
+html {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+#main {
+    float: left;
+    width: 100%;
+    max-width: 700px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+#key_container {
+    float: left;
+    width: 100%;
+    max-width: 740px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height:14px;
+
+}
+
+#key {
+    float: left;
+    width: 100%;
+    max-width: 740px;
+    margin-bottom: 10px;
+}
+
+#sl_container {
+  float: left;
+  width: 100%;
+  height: 40px;
+  padding-left: 4%;
+  padding-right: 10px;
+}
+
+#slider{
+  width: 92%;
+}
+
+#year {
+  float: left;
+  width: 100%;
+  max-width: 740px;
+  height: auto;
+  margin-bottom: 15px;
+  text-align: center;
+  line-height:24px;
+  font-size: 22px;
+  color: #777;
+}
+
+#source {
+    position: relative;
+    float: left;
+    width:100%;
+    max-width:740px;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 11px;
+    line-height:12px;
+    z-index: -2;
+}
+
+hr {
+    height: 1px;
+    margin: 6px 0px;
+}
+
+.center {
+    height: 25px; 
+    width: 300px;
+    display: block;
+    margin:0 auto;
+}
+
+
+.selected {
+  fill: #FFC20E;
+}
+
+.stroke {
+  fill: none;
+  stroke: #000;
+  stroke-width: 3px;
+}
+
+.fill {
+  fill: #fff;
+}
+
+.graticule {
+  fill: none;
+  stroke: #777;
+  stroke-width: .5px;
+  stroke-opacity: .5;
+}
+
+.boundary {
+  fill: none;
+  stroke: #fff;
+  stroke-width: .5px;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: left;
+  max-width: 220px;
+  //min-width: 40px;
+  min-height: 12px;
+  padding: 8px;
+  font: 12px sans-serif;
+  background: #fff;
+  //border: solid 1px #999;
+  border-radius: 8px;
+  border-radius:4px;
+  box-shadow:0 0 5px #444;
+  visibility: hidden;
+  opacity: 0.9;
+}
+
+.tipHed {
+  font-size: 14px;
+  font-weight:bold;
+  line-height: 16px;
+}
+
+.tipText {
+  font-size: 12px;
+  //font-weight:bold;
+  line-height: 16px;
+}
+
+#tipChart {
+  width: 200px;
+  height: 100px;
+  margin-top: 2px;
+  background-color: #B9E5FB;
+}
