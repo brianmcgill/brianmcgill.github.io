@@ -1,0 +1,3632 @@
+[
+    {
+        "NAME": "New York-Northern N.J.-Long Island, NY-NJ-PA ",
+        "ATT80": 19.2,
+        "ATT10": 35.5,
+        "ATTCHANGE": 16.3,
+        "POP80": "16,400,000",
+        "POP10": "18,900,000",
+        "AREA10": 4905.555781,
+        "SLUG": 35620
+    },
+    {
+        "NAME": "Los Angeles-Long Beach-Santa Ana, CA ",
+        "ATT80": 19.3,
+        "ATT10": 30.6,
+        "ATTCHANGE": 11.3,
+        "POP80": "9,410,212",
+        "POP10": "12,800,000",
+        "AREA10": 4037.033016,
+        "SLUG": 31100
+    },
+    {
+        "NAME": "Chicago-Joliet-Naperville, IL-IN-WI ",
+        "ATT80": 17.8,
+        "ATT10": 33.4,
+        "ATTCHANGE": 15.6,
+        "POP80": "8,052,932",
+        "POP10": "9,461,105",
+        "AREA10": 3470.789281,
+        "SLUG": 16980
+    },
+    {
+        "NAME": "Dallas-Fort Worth-Arlington, TX ",
+        "ATT80": 20.1,
+        "ATT10": 30.9,
+        "ATTCHANGE": 10.8,
+        "POP80": "3,017,178",
+        "POP10": "6,371,773",
+        "AREA10": 2848.311373,
+        "SLUG": 19100
+    },
+    {
+        "NAME": "Philadelphia-Camden-Wilmington, PA-NJ-DE ",
+        "ATT80": 17,
+        "ATT10": 32.3,
+        "ATTCHANGE": 15.3,
+        "POP80": "5,240,039",
+        "POP10": "5,965,343",
+        "AREA10": 2755.973431,
+        "SLUG": 37980
+    },
+    {
+        "NAME": "Houston-Sugar Land-Baytown, TX ",
+        "ATT80": 21.3,
+        "ATT10": 28.4,
+        "ATTCHANGE": 7.1,
+        "POP80": "3,148,991",
+        "POP10": "5,946,800",
+        "AREA10": 2751.686687,
+        "SLUG": 26420
+    },
+    {
+        "NAME": "Washington-Arlington-Alexandria, DC-VA-MD ",
+        "ATT80": 31.2,
+        "ATT10": 47.1,
+        "ATTCHANGE": 15.9,
+        "POP80": "3,397,935",
+        "POP10": "5,582,170",
+        "AREA10": 2665.992023,
+        "SLUG": 47900
+    },
+    {
+        "NAME": "Miami-Fort Lauderdale-Pompano Beach, FL ",
+        "ATT80": 16.3,
+        "ATT10": 28.6,
+        "ATTCHANGE": 12.3,
+        "POP80": "3,220,844",
+        "POP10": "5,564,635",
+        "AREA10": 2661.801453,
+        "SLUG": 33100
+    },
+    {
+        "NAME": "Atlanta-Sandy Springs-Marietta, GA ",
+        "ATT80": 19.2,
+        "ATT10": 34.4,
+        "ATTCHANGE": 15.2,
+        "POP80": "2,326,639",
+        "POP10": "5,268,860",
+        "AREA10": 2590.094716,
+        "SLUG": 12060
+    },
+    {
+        "NAME": "Boston-Cambridge-Quincy, MA-NH ",
+        "ATT80": 22.3,
+        "ATT10": 42.2,
+        "ATTCHANGE": 19.9,
+        "POP80": "3,938,585",
+        "POP10": "4,552,402",
+        "AREA10": 2407.562771,
+        "SLUG": 14460
+    },
+    {
+        "NAME": "San Francisco-Oakland-Fremont, CA ",
+        "ATT80": 26,
+        "ATT10": 43.5,
+        "ATTCHANGE": 17.5,
+        "POP80": "3,250,630",
+        "POP10": "4,335,391",
+        "AREA10": 2349.478376,
+        "SLUG": 41860
+    },
+    {
+        "NAME": "Detroit-Warren-Livonia, MI ",
+        "ATT80": 14.2,
+        "ATT10": 27,
+        "ATTCHANGE": 12.8,
+        "POP80": "4,353,413",
+        "POP10": "4,296,250",
+        "AREA10": 2338.848488,
+        "SLUG": 19820
+    },
+    {
+        "NAME": "Riverside-San Bernardino-Ontario, CA ",
+        "ATT80": 13,
+        "ATT10": 19.4,
+        "ATTCHANGE": 6.4,
+        "POP80": "1,558,182",
+        "POP10": "4,224,851",
+        "AREA10": 2319.332507,
+        "SLUG": 40140
+    },
+    {
+        "NAME": "Phoenix-Mesa-Glendale, AZ ",
+        "ATT80": 17.8,
+        "ATT10": 28.1,
+        "ATTCHANGE": 10.3,
+        "POP80": "1,599,970",
+        "POP10": "4,192,887",
+        "AREA10": 2310.542149,
+        "SLUG": 38060
+    },
+    {
+        "NAME": "Seattle-Tacoma-Bellevue, WA ",
+        "ATT80": 22.1,
+        "ATT10": 36.9,
+        "ATTCHANGE": 14.8,
+        "POP80": "2,093,112",
+        "POP10": "3,439,809",
+        "AREA10": 2092.784358,
+        "SLUG": 42660
+    },
+    {
+        "NAME": "Minneapolis-St. Paul-Bloomington, MN-WI ",
+        "ATT80": 21.6,
+        "ATT10": 37.6,
+        "ATTCHANGE": 16,
+        "POP80": "2,198,190",
+        "POP10": "3,279,833",
+        "AREA10": 2043.540183,
+        "SLUG": 33460
+    },
+    {
+        "NAME": "San Diego-Carlsbad-San Marcos, CA ",
+        "ATT80": 20.9,
+        "ATT10": 34,
+        "ATTCHANGE": 13.1,
+        "POP80": "1,861,846",
+        "POP10": "3,095,313",
+        "AREA10": 1985.22439,
+        "SLUG": 41740
+    },
+    {
+        "NAME": "St. Louis, MO-IL ",
+        "ATT80": 15.1,
+        "ATT10": 29.2,
+        "ATTCHANGE": 14.1,
+        "POP80": "2,521,849",
+        "POP10": "2,812,896",
+        "AREA10": 1892.492443,
+        "SLUG": 41180
+    },
+    {
+        "NAME": "Tampa-St. Petersburg-Clearwater, FL ",
+        "ATT80": 13.4,
+        "ATT10": 25.9,
+        "ATTCHANGE": 12.5,
+        "POP80": "1,613,603",
+        "POP10": "2,783,243",
+        "AREA10": 1882.490872,
+        "SLUG": 45300
+    },
+    {
+        "NAME": "Baltimore-Towson, MD ",
+        "ATT80": 16.9,
+        "ATT10": 34.6,
+        "ATTCHANGE": 17.7,
+        "POP80": "2,199,531",
+        "POP10": "2,710,489",
+        "AREA10": 1857.723782,
+        "SLUG": 12580
+    },
+    {
+        "NAME": "Denver-Aurora-Broomfield, CO ",
+        "ATT80": 24.6,
+        "ATT10": 37.6,
+        "ATTCHANGE": 13,
+        "POP80": "1,450,768",
+        "POP10": "2,543,482",
+        "AREA10": 1799.582042,
+        "SLUG": 19740
+    },
+    {
+        "NAME": "Pittsburgh, PA ",
+        "ATT80": 13.8,
+        "ATT10": 28.4,
+        "ATTCHANGE": 14.6,
+        "POP80": "2,648,991",
+        "POP10": "2,356,285",
+        "AREA10": 1732.093076,
+        "SLUG": 38300
+    },
+    {
+        "NAME": "Portland-Vancouver-Hillsboro, OR-WA ",
+        "ATT80": 19.5,
+        "ATT10": 33.4,
+        "ATTCHANGE": 13.9,
+        "POP80": "1,341,491",
+        "POP10": "2,226,009",
+        "AREA10": 1683.529669,
+        "SLUG": 38940
+    },
+    {
+        "NAME": "Sacramento-Arden Arcade-Roseville, CA ",
+        "ATT80": 19.6,
+        "ATT10": 30,
+        "ATTCHANGE": 10.4,
+        "POP80": "1,099,814",
+        "POP10": "2,149,127",
+        "AREA10": 1654.201295,
+        "SLUG": 40900
+    },
+    {
+        "NAME": "San Antonio-New Braunfels, TX ",
+        "ATT80": 15.2,
+        "ATT10": 25.2,
+        "ATTCHANGE": 10,
+        "POP80": "1,154,648",
+        "POP10": "2,142,508",
+        "AREA10": 1651.651981,
+        "SLUG": 41700
+    },
+    {
+        "NAME": "Orlando-Kissimmee-Sanford, FL ",
+        "ATT80": 15.7,
+        "ATT10": 27.9,
+        "ATTCHANGE": 12.2,
+        "POP80": "804.925",
+        "POP10": "2,134,411",
+        "AREA10": 1648.528052,
+        "SLUG": 36740
+    },
+    {
+        "NAME": "Cincinnati-Middletown, OH-KY-IN ",
+        "ATT80": 15.1,
+        "ATT10": 28.4,
+        "ATTCHANGE": 13.3,
+        "POP80": "1,753,801",
+        "POP10": "2,130,151",
+        "AREA10": 1646.882109,
+        "SLUG": 17140
+    },
+    {
+        "NAME": "Cleveland-Elyria-Mentor, OH ",
+        "ATT80": 15.2,
+        "ATT10": 27,
+        "ATTCHANGE": 11.8,
+        "POP80": "2,173,734",
+        "POP10": "2,077,240",
+        "AREA10": 1626.299973,
+        "SLUG": 17420
+    },
+    {
+        "NAME": "Kansas City, MO-KS ",
+        "ATT80": 17.4,
+        "ATT10": 32.2,
+        "ATTCHANGE": 14.8,
+        "POP80": "1,504,203",
+        "POP10": "2,035,334",
+        "AREA10": 1609.811999,
+        "SLUG": 28140
+    },
+    {
+        "NAME": "Las Vegas-Paradise, NV ",
+        "ATT80": 12.6,
+        "ATT10": 21.7,
+        "ATTCHANGE": 9.1,
+        "POP80": "463.087",
+        "POP10": "1,951,269",
+        "AREA10": 1576.21657,
+        "SLUG": 29820
+    },
+    {
+        "NAME": "San Jose-Sunnyvale-Santa Clara, CA ",
+        "ATT80": 26.1,
+        "ATT10": 44.5,
+        "ATTCHANGE": 18.4,
+        "POP80": "1,320,076",
+        "POP10": "1,836,911",
+        "AREA10": 1529.330584,
+        "SLUG": 41940
+    },
+    {
+        "NAME": "Columbus, OH ",
+        "ATT80": 18,
+        "ATT10": 32.5,
+        "ATTCHANGE": 14.5,
+        "POP80": "1,270,313",
+        "POP10": "1,836,536",
+        "AREA10": 1529.174472,
+        "SLUG": 18140
+    },
+    {
+        "NAME": "Charlotte-Gastonia-Rock Hill, NC-SC ",
+        "ATT80": 15.2,
+        "ATT10": 32.3,
+        "ATTCHANGE": 17.1,
+        "POP80": "855.482",
+        "POP10": "1,758,038",
+        "AREA10": 1496.137283,
+        "SLUG": 16740
+    },
+    {
+        "NAME": "Indianapolis-Carmel, IN ",
+        "ATT80": 15.8,
+        "ATT10": 30.6,
+        "ATTCHANGE": 14.8,
+        "POP80": "1,208,115",
+        "POP10": "1,756,241",
+        "AREA10": 1495.37244,
+        "SLUG": 26900
+    },
+    {
+        "NAME": "Austin-Round Rock-San Marcos, TX ",
+        "ATT80": 26.6,
+        "ATT10": 39.4,
+        "ATTCHANGE": 12.8,
+        "POP80": "585.051",
+        "POP10": "1,716,289",
+        "AREA10": 1478.265788,
+        "SLUG": 12420
+    },
+    {
+        "NAME": "Virginia Beach-Norfolk-Newport News, VA-NC ",
+        "ATT80": 15.5,
+        "ATT10": 27.7,
+        "ATTCHANGE": 12.2,
+        "POP80": "1,207,044",
+        "POP10": "1,671,683",
+        "AREA10": 1458.929411,
+        "SLUG": 47260
+    },
+    {
+        "NAME": "Providence-New Bedford-Fall River, RI-MA ",
+        "ATT80": 13.9,
+        "ATT10": 28.4,
+        "ATTCHANGE": 14.5,
+        "POP80": "1,421,795",
+        "POP10": "1,600,852",
+        "AREA10": 1427.68668,
+        "SLUG": 39300
+    },
+    {
+        "NAME": "Nashville-Davidson--Murfreesboro--Franklin, TN ",
+        "ATT80": 16,
+        "ATT10": 29.7,
+        "ATTCHANGE": 13.7,
+        "POP80": "912.662",
+        "POP10": "1,589,934",
+        "AREA10": 1422.809855,
+        "SLUG": 34980
+    },
+    {
+        "NAME": "Milwaukee-Waukesha-West Allis, WI ",
+        "ATT80": 17.1,
+        "ATT10": 30.9,
+        "ATTCHANGE": 13.8,
+        "POP80": "1,397,143",
+        "POP10": "1,555,908",
+        "AREA10": 1407.502819,
+        "SLUG": 33340
+    },
+    {
+        "NAME": "Jacksonville, FL ",
+        "ATT80": 13.9,
+        "ATT10": 26.1,
+        "ATTCHANGE": 12.2,
+        "POP80": "737.541",
+        "POP10": "1,345,596",
+        "AREA10": 1308.924691,
+        "SLUG": 27260
+    },
+    {
+        "NAME": "Memphis, TN-MS-AR ",
+        "ATT80": 14.1,
+        "ATT10": 24.7,
+        "ATTCHANGE": 10.6,
+        "POP80": "997.844",
+        "POP10": "1,316,100",
+        "AREA10": 1294.499124,
+        "SLUG": 32820
+    },
+    {
+        "NAME": "Louisville-Jefferson County, KY-IN ",
+        "ATT80": 13.3,
+        "ATT10": 24.4,
+        "ATTCHANGE": 11.1,
+        "POP80": "1,054,048",
+        "POP10": "1,283,566",
+        "AREA10": 1278.39899,
+        "SLUG": 31140
+    },
+    {
+        "NAME": "Richmond, VA ",
+        "ATT80": 17.4,
+        "ATT10": 30.7,
+        "ATTCHANGE": 13.3,
+        "POP80": "839.502",
+        "POP10": "1,258,251",
+        "AREA10": 1265.729664,
+        "SLUG": 40060
+    },
+    {
+        "NAME": "Oklahoma City, OK ",
+        "ATT80": 18.6,
+        "ATT10": 27.2,
+        "ATTCHANGE": 8.6,
+        "POP80": "871.821",
+        "POP10": "1,252,987",
+        "AREA10": 1263.079245,
+        "SLUG": 36420
+    },
+    {
+        "NAME": "Hartford-West Hartford-East Hartford, CT ",
+        "ATT80": 20.3,
+        "ATT10": 34.2,
+        "ATTCHANGE": 13.9,
+        "POP80": "1,051,606",
+        "POP10": "1,212,381",
+        "AREA10": 1242.444155,
+        "SLUG": 25540
+    },
+    {
+        "NAME": "New Orleans-Metairie-Kenner, LA ",
+        "ATT80": 16.2,
+        "ATT10": 25.9,
+        "ATTCHANGE": 9.7,
+        "POP80": "1,282,305",
+        "POP10": "1,167,764",
+        "AREA10": 1219.36818,
+        "SLUG": 35380
+    },
+    {
+        "NAME": "Buffalo-Niagara Falls, NY ",
+        "ATT80": 14.5,
+        "ATT10": 27.3,
+        "ATTCHANGE": 12.8,
+        "POP80": "1,242,826",
+        "POP10": "1,135,509",
+        "AREA10": 1202.410076,
+        "SLUG": 15380
+    },
+    {
+        "NAME": "Raleigh-Cary, NC ",
+        "ATT80": 21.5,
+        "ATT10": 41.3,
+        "ATTCHANGE": 19.8,
+        "POP80": "401.981",
+        "POP10": "1,130,490",
+        "AREA10": 1199.74978,
+        "SLUG": 39580
+    },
+    {
+        "NAME": "Birmingham-Hoover, AL ",
+        "ATT80": 13.9,
+        "ATT10": 26.5,
+        "ATTCHANGE": 12.6,
+        "POP80": "930.281",
+        "POP10": "1,128,047",
+        "AREA10": 1198.452743,
+        "SLUG": 13820
+    },
+    {
+        "NAME": "Salt Lake City, UT ",
+        "ATT80": 21.4,
+        "ATT10": 30.3,
+        "ATTCHANGE": 8.9,
+        "POP80": "655.297",
+        "POP10": "1,124,197",
+        "AREA10": 1196.405848,
+        "SLUG": 41620
+    },
+    {
+        "NAME": "Rochester, NY ",
+        "ATT80": 19.1,
+        "ATT10": 31.6,
+        "ATTCHANGE": 12.5,
+        "POP80": "971.230",
+        "POP10": "1,054,323",
+        "AREA10": 1158.628366,
+        "SLUG": 40380
+    },
+    {
+        "NAME": "Tucson, AZ ",
+        "ATT80": 20.7,
+        "ATT10": 29.6,
+        "ATTCHANGE": 8.9,
+        "POP80": "531.443",
+        "POP10": "980.263",
+        "AREA10": 1117.194069,
+        "SLUG": 46060
+    },
+    {
+        "NAME": "Honolulu, HI ",
+        "ATT80": 21.7,
+        "ATT10": 31.1,
+        "ATTCHANGE": 9.4,
+        "POP80": "762.565",
+        "POP10": "953.207",
+        "AREA10": 1101.66849,
+        "SLUG": 26180
+    },
+    {
+        "NAME": "Tulsa, OK ",
+        "ATT80": 16.4,
+        "ATT10": 24.9,
+        "ATTCHANGE": 8.5,
+        "POP80": "711.652",
+        "POP10": "937.478",
+        "AREA10": 1092.541289,
+        "SLUG": 46140
+    },
+    {
+        "NAME": "Fresno, CA ",
+        "ATT80": 15.2,
+        "ATT10": 19.7,
+        "ATTCHANGE": 4.5,
+        "POP80": "514.621",
+        "POP10": "930.450",
+        "AREA10": 1088.438353,
+        "SLUG": 23420
+    },
+    {
+        "NAME": "Bridgeport-Stamford-Norwalk, CT ",
+        "ATT80": 25.9,
+        "ATT10": 43.6,
+        "ATTCHANGE": 17.7,
+        "POP80": "807.143",
+        "POP10": "916.829",
+        "AREA10": 1080.442072,
+        "SLUG": 14860
+    },
+    {
+        "NAME": "Albuquerque, NM ",
+        "ATT80": 20.7,
+        "ATT10": 29.5,
+        "ATTCHANGE": 8.8,
+        "POP80": "523.105",
+        "POP10": "887.077",
+        "AREA10": 1062.766793,
+        "SLUG": 10740
+    },
+    {
+        "NAME": "Albany-Schenectady-Troy, NY ",
+        "ATT80": 18.8,
+        "ATT10": 32.6,
+        "ATTCHANGE": 13.8,
+        "POP80": "771.290",
+        "POP10": "870.716",
+        "AREA10": 1052.920494,
+        "SLUG": 10500
+    },
+    {
+        "NAME": "Omaha-Council Bluffs, NE-IA ",
+        "ATT80": 17.5,
+        "ATT10": 32.3,
+        "ATTCHANGE": 14.8,
+        "POP80": "653.889",
+        "POP10": "865.350",
+        "AREA10": 1049.67104,
+        "SLUG": 36540
+    },
+    {
+        "NAME": "New Haven-Milford, CT ",
+        "ATT80": 17.9,
+        "ATT10": 31.7,
+        "ATTCHANGE": 13.8,
+        "POP80": "761.337",
+        "POP10": "862.477",
+        "AREA10": 1047.927114,
+        "SLUG": 35300
+    },
+    {
+        "NAME": "Dayton, OH ",
+        "ATT80": 15.8,
+        "ATT10": 25,
+        "ATTCHANGE": 9.2,
+        "POP80": "830.070",
+        "POP10": "841.502",
+        "AREA10": 1035.106159,
+        "SLUG": 19380
+    },
+    {
+        "NAME": "Bakersfield-Delano, CA ",
+        "ATT80": 11.8,
+        "ATT10": 14.6,
+        "ATTCHANGE": 2.8,
+        "POP80": "403.089",
+        "POP10": "839.631",
+        "AREA10": 1033.954788,
+        "SLUG": 12540
+    },
+    {
+        "NAME": "Oxnard-Thousand Oaks-Ventura, CA ",
+        "ATT80": 18.2,
+        "ATT10": 30.8,
+        "ATTCHANGE": 12.6,
+        "POP80": "529.174",
+        "POP10": "823.318",
+        "AREA10": 1023.861285,
+        "SLUG": 37100
+    },
+    {
+        "NAME": "Allentown-Bethlehem-Easton, PA-NJ ",
+        "ATT80": 12.7,
+        "ATT10": 25.9,
+        "ATTCHANGE": 13.2,
+        "POP80": "635.481",
+        "POP10": "821.173",
+        "AREA10": 1022.526677,
+        "SLUG": 10900
+    },
+    {
+        "NAME": "Baton Rouge, LA ",
+        "ATT80": 17.7,
+        "ATT10": 25.5,
+        "ATTCHANGE": 7.8,
+        "POP80": "591.383",
+        "POP10": "802.484",
+        "AREA10": 1010.823913,
+        "SLUG": 12940
+    },
+    {
+        "NAME": "El Paso, TX ",
+        "ATT80": 14,
+        "ATT10": 19.3,
+        "ATTCHANGE": 5.3,
+        "POP80": "479.899",
+        "POP10": "800.647",
+        "AREA10": 1009.66629,
+        "SLUG": 21060
+    },
+    {
+        "NAME": "Worcester, MA ",
+        "ATT80": 15.4,
+        "ATT10": 32.9,
+        "ATTCHANGE": 17.5,
+        "POP80": "646.352",
+        "POP10": "798.552",
+        "AREA10": 1008.344462,
+        "SLUG": 49340
+    },
+    {
+        "NAME": "McAllen-Edinburg-Mission, TX ",
+        "ATT80": 10.8,
+        "ATT10": 15.1,
+        "ATTCHANGE": 4.3,
+        "POP80": "283.229",
+        "POP10": "774.769",
+        "AREA10": 993.2153756,
+        "SLUG": 32580
+    },
+    {
+        "NAME": "Grand Rapids-Wyoming, MI ",
+        "ATT80": 14.6,
+        "ATT10": 26.3,
+        "ATTCHANGE": 11.7,
+        "POP80": "577.019",
+        "POP10": "774.160",
+        "AREA10": 992.8249449,
+        "SLUG": 24340
+    },
+    {
+        "NAME": "Columbia, SC ",
+        "ATT80": 19.1,
+        "ATT10": 30.1,
+        "ATTCHANGE": 11,
+        "POP80": "498.159",
+        "POP10": "767.598",
+        "AREA10": 988.6082574,
+        "SLUG": 17900
+    },
+    {
+        "NAME": "Greensboro-High Point, NC ",
+        "ATT80": 15.4,
+        "ATT10": 25.8,
+        "ATTCHANGE": 10.4,
+        "POP80": "492.308",
+        "POP10": "723.801",
+        "AREA10": 959.9904346,
+        "SLUG": 24660
+    },
+    {
+        "NAME": "Akron, OH ",
+        "ATT80": 15.4,
+        "ATT10": 28.3,
+        "ATTCHANGE": 12.9,
+        "POP80": "660.328",
+        "POP10": "703.200",
+        "AREA10": 946.2300746,
+        "SLUG": 10420
+    },
+    {
+        "NAME": "North Port-Bradenton-Sarasota, FL ",
+        "ATT80": 15.6,
+        "ATT10": 27.6,
+        "ATTCHANGE": 12,
+        "POP80": "350.693",
+        "POP10": "702.281",
+        "AREA10": 945.6115666,
+        "SLUG": 35840
+    },
+    {
+        "NAME": "Little Rock-North Little Rock-Conway, AR ",
+        "ATT80": 16,
+        "ATT10": 26.7,
+        "ATTCHANGE": 10.7,
+        "POP80": "494.758",
+        "POP10": "699.757",
+        "AREA10": 943.9107716,
+        "SLUG": 30780
+    },
+    {
+        "NAME": "Knoxville, TN ",
+        "ATT80": 16.5,
+        "ATT10": 28.5,
+        "ATTCHANGE": 12,
+        "POP80": "505.070",
+        "POP10": "698.030",
+        "AREA10": 942.7452664,
+        "SLUG": 28940
+    },
+    {
+        "NAME": "Springfield, MA ",
+        "ATT80": 16.7,
+        "ATT10": 28.5,
+        "ATTCHANGE": 11.8,
+        "POP80": "646.148",
+        "POP10": "692.942",
+        "AREA10": 939.3031071,
+        "SLUG": 44140
+    },
+    {
+        "NAME": "Stockton, CA ",
+        "ATT80": 11.5,
+        "ATT10": 17.5,
+        "ATTCHANGE": 6,
+        "POP80": "347.342",
+        "POP10": "685.306",
+        "AREA10": 934.1133598,
+        "SLUG": 44700
+    },
+    {
+        "NAME": "Poughkeepsie-Newburgh-Middletown, NY ",
+        "ATT80": 16.9,
+        "ATT10": 29.6,
+        "ATTCHANGE": 12.7,
+        "POP80": "504.658",
+        "POP10": "670.301",
+        "AREA10": 923.8304016,
+        "SLUG": 39100
+    },
+    {
+        "NAME": "Charleston-North Charleston-Summerville, SC ",
+        "ATT80": 15.1,
+        "ATT10": 29.9,
+        "ATTCHANGE": 14.8,
+        "POP80": "430.462",
+        "POP10": "664.607",
+        "AREA10": 919.8982061,
+        "SLUG": 16620
+    },
+    {
+        "NAME": "Syracuse, NY ",
+        "ATT80": 17.6,
+        "ATT10": 28.2,
+        "ATTCHANGE": 10.6,
+        "POP80": "642.971",
+        "POP10": "662.577",
+        "AREA10": 918.4922463,
+        "SLUG": 45060
+    },
+    {
+        "NAME": "Toledo, OH ",
+        "ATT80": 14.1,
+        "ATT10": 23.4,
+        "ATTCHANGE": 9.3,
+        "POP80": "656.940",
+        "POP10": "651.429",
+        "AREA10": 910.7325538,
+        "SLUG": 45780
+    },
+    {
+        "NAME": "Colorado Springs, CO ",
+        "ATT80": 20.8,
+        "ATT10": 34.8,
+        "ATTCHANGE": 14,
+        "POP80": "317.458",
+        "POP10": "645.613",
+        "AREA10": 906.6578993,
+        "SLUG": 17820
+    },
+    {
+        "NAME": "Greenville-Mauldin-Easley, SC ",
+        "ATT80": 14.3,
+        "ATT10": 27.1,
+        "ATTCHANGE": 12.8,
+        "POP80": "419.419",
+        "POP10": "636.986",
+        "AREA10": 900.5799213,
+        "SLUG": 24860
+    },
+    {
+        "NAME": "Wichita, KS ",
+        "ATT80": 17.4,
+        "ATT10": 26.8,
+        "ATTCHANGE": 9.4,
+        "POP80": "466.772",
+        "POP10": "623.061",
+        "AREA10": 890.6818454,
+        "SLUG": 48620
+    },
+    {
+        "NAME": "Cape Coral-Fort Myers, FL ",
+        "ATT80": 13.3,
+        "ATT10": 24.6,
+        "ATTCHANGE": 11.3,
+        "POP80": "205.266",
+        "POP10": "618.754",
+        "AREA10": 887.5980227,
+        "SLUG": 15980
+    },
+    {
+        "NAME": "Boise City-Nampa, ID ",
+        "ATT80": 18,
+        "ATT10": 28.5,
+        "ATTCHANGE": 10.5,
+        "POP80": "280.035",
+        "POP10": "616.561",
+        "AREA10": 886.0237054,
+        "SLUG": 14260
+    },
+    {
+        "NAME": "Lakeland-Winter Haven, FL ",
+        "ATT80": 11.4,
+        "ATT10": 18,
+        "ATTCHANGE": 6.6,
+        "POP80": "321.652",
+        "POP10": "602.095",
+        "AREA10": 875.5678911,
+        "SLUG": 29460
+    },
+    {
+        "NAME": "Des Moines-West Des Moines, IA ",
+        "ATT80": 17.5,
+        "ATT10": 32.5,
+        "ATTCHANGE": 15,
+        "POP80": "392.141",
+        "POP10": "569.633",
+        "AREA10": 851.6377165,
+        "SLUG": 19780
+    },
+    {
+        "NAME": "Madison, WI ",
+        "ATT80": 27.5,
+        "ATT10": 41.6,
+        "ATTCHANGE": 14.1,
+        "POP80": "386.569",
+        "POP10": "568.593",
+        "AREA10": 850.8599281,
+        "SLUG": 31540
+    },
+    {
+        "NAME": "Youngstown-Warren-Boardman, OH-PA ",
+        "ATT80": 10.7,
+        "ATT10": 18.6,
+        "ATTCHANGE": 7.9,
+        "POP80": "659.649",
+        "POP10": "565.773",
+        "AREA10": 848.7473384,
+        "SLUG": 49660
+    },
+    {
+        "NAME": "Scranton--Wilkes-Barre, PA ",
+        "ATT80": 9.9,
+        "ATT10": 21.4,
+        "ATTCHANGE": 11.5,
+        "POP80": "597.420",
+        "POP10": "563.631",
+        "AREA10": 847.1391486,
+        "SLUG": 42540
+    },
+    {
+        "NAME": "Augusta-Richmond County, GA-SC ",
+        "ATT80": 13.6,
+        "ATT10": 23.1,
+        "ATTCHANGE": 9.5,
+        "POP80": "382.795",
+        "POP10": "556.877",
+        "AREA10": 842.0482099,
+        "SLUG": 12260
+    },
+    {
+        "NAME": "Harrisburg-Carlisle, PA ",
+        "ATT80": 15.6,
+        "ATT10": 28.2,
+        "ATTCHANGE": 12.6,
+        "POP80": "446.576",
+        "POP10": "549.475",
+        "AREA10": 836.4332434,
+        "SLUG": 25420
+    },
+    {
+        "NAME": "Ogden-Clearfield, UT ",
+        "ATT80": 17.9,
+        "ATT10": 28.8,
+        "ATTCHANGE": 10.9,
+        "POP80": "296.073",
+        "POP10": "547.184",
+        "AREA10": 834.6876952,
+        "SLUG": 36260
+    },
+    {
+        "NAME": "Palm Bay-Melbourne-Titusville, FL ",
+        "ATT80": 17.1,
+        "ATT10": 26.2,
+        "ATTCHANGE": 9.1,
+        "POP80": "272.959",
+        "POP10": "543.376",
+        "AREA10": 831.7782168,
+        "SLUG": 37340
+    },
+    {
+        "NAME": "Jackson, MS ",
+        "ATT80": 19.2,
+        "ATT10": 28.7,
+        "ATTCHANGE": 9.5,
+        "POP80": "411.982",
+        "POP10": "539.057",
+        "AREA10": 828.4659457,
+        "SLUG": 27140
+    },
+    {
+        "NAME": "Chattanooga, TN-GA ",
+        "ATT80": 12.6,
+        "ATT10": 22.6,
+        "ATTCHANGE": 10,
+        "POP80": "426.540",
+        "POP10": "528.143",
+        "AREA10": 820.0363055,
+        "SLUG": 16860
+    },
+    {
+        "NAME": "Provo-Orem, UT ",
+        "ATT80": 23,
+        "ATT10": 35,
+        "ATTCHANGE": 12,
+        "POP80": "223.636",
+        "POP10": "526.810",
+        "AREA10": 819.0007915,
+        "SLUG": 39340
+    },
+    {
+        "NAME": "Lancaster, PA ",
+        "ATT80": 13,
+        "ATT10": 23.3,
+        "ATTCHANGE": 10.3,
+        "POP80": "362.346",
+        "POP10": "519.445",
+        "AREA10": 813.255673,
+        "SLUG": 29540
+    },
+    {
+        "NAME": "Modesto, CA ",
+        "ATT80": 11.8,
+        "ATT10": 16.2,
+        "ATTCHANGE": 4.4,
+        "POP80": "265.900",
+        "POP10": "514.453",
+        "AREA10": 809.3384409,
+        "SLUG": 33700
+    },
+    {
+        "NAME": "Portland-South Portland-Biddeford, ME ",
+        "ATT80": 17,
+        "ATT10": 33.9,
+        "ATTCHANGE": 16.9,
+        "POP80": "384.250",
+        "POP10": "514.098",
+        "AREA10": 809.0591493,
+        "SLUG": 38900
+    },
+    {
+        "NAME": "Durham-Chapel Hill, NC ",
+        "ATT80": 25.1,
+        "ATT10": 42.9,
+        "ATTCHANGE": 17.8,
+        "POP80": "292.419",
+        "POP10": "504.357",
+        "AREA10": 801.357568,
+        "SLUG": 20500
+    },
+    {
+        "NAME": "Deltona-Daytona Beach-Ormond Beach, FL ",
+        "ATT80": 13,
+        "ATT10": 21,
+        "ATTCHANGE": 8,
+        "POP80": "258.762",
+        "POP10": "494.593",
+        "AREA10": 793.5627963,
+        "SLUG": 19660
+    },
+    {
+        "NAME": "Santa Rosa-Petaluma, CA ",
+        "ATT80": 19.3,
+        "ATT10": 31.5,
+        "ATTCHANGE": 12.2,
+        "POP80": "299.681",
+        "POP10": "483.878",
+        "AREA10": 784.9197463,
+        "SLUG": 42220
+    },
+    {
+        "NAME": "Winston-Salem, NC ",
+        "ATT80": 15.2,
+        "ATT10": 26.7,
+        "ATTCHANGE": 11.5,
+        "POP80": "329.807",
+        "POP10": "477.717",
+        "AREA10": 779.9067238,
+        "SLUG": 49180
+    },
+    {
+        "NAME": "Lexington-Fayette, KY ",
+        "ATT80": 20.9,
+        "ATT10": 33.6,
+        "ATTCHANGE": 12.7,
+        "POP80": "317.629",
+        "POP10": "472.099",
+        "AREA10": 775.3072705,
+        "SLUG": 30460
+    },
+    {
+        "NAME": "Spokane, WA ",
+        "ATT80": 17.9,
+        "ATT10": 27.9,
+        "ATTCHANGE": 10,
+        "POP80": "341.835",
+        "POP10": "471.221",
+        "AREA10": 774.5859847,
+        "SLUG": 44060
+    },
+    {
+        "NAME": "Lansing-East Lansing, MI ",
+        "ATT80": 21.7,
+        "ATT10": 31.2,
+        "ATTCHANGE": 9.5,
+        "POP80": "419.750",
+        "POP10": "464.036",
+        "AREA10": 768.6580036,
+        "SLUG": 29620
+    },
+    {
+        "NAME": "Fayetteville-Springdale-Rogers, AR-MO ",
+        "ATT80": 13.9,
+        "ATT10": 25.1,
+        "ATTCHANGE": 11.2,
+        "POP80": "204.899",
+        "POP10": "463.204",
+        "AREA10": 767.9686063,
+        "SLUG": 22180
+    },
+    {
+        "NAME": "Pensacola-Ferry Pass-Brent, FL ",
+        "ATT80": 14.2,
+        "ATT10": 23.8,
+        "ATTCHANGE": 9.6,
+        "POP80": "289.782",
+        "POP10": "448.991",
+        "AREA10": 756.0945962,
+        "SLUG": 37860
+    },
+    {
+        "NAME": "Visalia-Porterville, CA ",
+        "ATT80": 10.1,
+        "ATT10": 13,
+        "ATTCHANGE": 2.9,
+        "POP80": "245.738",
+        "POP10": "442.179",
+        "AREA10": 750.337018,
+        "SLUG": 47300
+    },
+    {
+        "NAME": "Springfield, MO ",
+        "ATT80": 13.4,
+        "ATT10": 24.9,
+        "ATTCHANGE": 11.5,
+        "POP80": "259.036",
+        "POP10": "436.712",
+        "AREA10": 745.6840937,
+        "SLUG": 44180
+    },
+    {
+        "NAME": "York-Hanover, PA ",
+        "ATT80": 11.3,
+        "ATT10": 21.5,
+        "ATTCHANGE": 10.2,
+        "POP80": "312.963",
+        "POP10": "434.972",
+        "AREA10": 744.1970893,
+        "SLUG": 49620
+    },
+    {
+        "NAME": "Corpus Christi, TX ",
+        "ATT80": 13.8,
+        "ATT10": 19.4,
+        "ATTCHANGE": 5.6,
+        "POP80": "340.488",
+        "POP10": "428.185",
+        "AREA10": 738.3682964,
+        "SLUG": 18580
+    },
+    {
+        "NAME": "Flint, MI ",
+        "ATT80": 10.9,
+        "ATT10": 19,
+        "ATTCHANGE": 8.1,
+        "POP80": "450.449",
+        "POP10": "425.790",
+        "AREA10": 736.3004147,
+        "SLUG": 22420
+    },
+    {
+        "NAME": "Reno-Sparks, NV ",
+        "ATT80": 19.6,
+        "ATT10": 26.6,
+        "ATTCHANGE": 7,
+        "POP80": "195.126",
+        "POP10": "425.417",
+        "AREA10": 735.9778376,
+        "SLUG": 39900
+    },
+    {
+        "NAME": "Asheville, NC ",
+        "ATT80": 13.5,
+        "ATT10": 28.2,
+        "ATTCHANGE": 14.7,
+        "POP80": "282.836",
+        "POP10": "424.858",
+        "AREA10": 735.4941394,
+        "SLUG": 11700
+    },
+    {
+        "NAME": "Port St. Lucie, FL ",
+        "ATT80": 13.2,
+        "ATT10": 22.1,
+        "ATTCHANGE": 8.9,
+        "POP80": "151.196",
+        "POP10": "424.107",
+        "AREA10": 734.843804,
+        "SLUG": 38860
+    },
+    {
+        "NAME": "Santa Barbara-Santa Maria-Goleta, CA ",
+        "ATT80": 24.6,
+        "ATT10": 31,
+        "ATTCHANGE": 6.4,
+        "POP80": "298.694",
+        "POP10": "423.895",
+        "AREA10": 734.6601164,
+        "SLUG": 42060
+    },
+    {
+        "NAME": "Huntsville, AL ",
+        "ATT80": 18.9,
+        "ATT10": 34.1,
+        "ATTCHANGE": 15.2,
+        "POP80": "242.971",
+        "POP10": "417.593",
+        "AREA10": 729.1786117,
+        "SLUG": 26620
+    },
+    {
+        "NAME": "Fort Wayne, IN ",
+        "ATT80": 13.9,
+        "ATT10": 24.4,
+        "ATTCHANGE": 10.5,
+        "POP80": "345.951",
+        "POP10": "416.257",
+        "AREA10": 728.0112513,
+        "SLUG": 23060
+    },
+    {
+        "NAME": "Salinas, CA ",
+        "ATT80": 19.6,
+        "ATT10": 23.4,
+        "ATTCHANGE": 3.8,
+        "POP80": "290.444",
+        "POP10": "415.057",
+        "AREA10": 726.9611259,
+        "SLUG": 41500
+    },
+    {
+        "NAME": "Vallejo-Fairfield, CA ",
+        "ATT80": 13.7,
+        "ATT10": 24,
+        "ATTCHANGE": 10.3,
+        "POP80": "235.203",
+        "POP10": "413.344",
+        "AREA10": 725.4594383,
+        "SLUG": 46700
+    },
+    {
+        "NAME": "Mobile, AL ",
+        "ATT80": 12.4,
+        "ATT10": 19.8,
+        "ATTCHANGE": 7.4,
+        "POP80": "364.980",
+        "POP10": "412.992",
+        "AREA10": 725.1504752,
+        "SLUG": 33660
+    },
+    {
+        "NAME": "Reading, PA ",
+        "ATT80": 11.4,
+        "ATT10": 21.7,
+        "ATTCHANGE": 10.3,
+        "POP80": "312.509",
+        "POP10": "411.442",
+        "AREA10": 723.7884151,
+        "SLUG": 39740
+    },
+    {
+        "NAME": "Brownsville-Harlingen, TX ",
+        "ATT80": 10.5,
+        "ATT10": 14.5,
+        "ATTCHANGE": 4,
+        "POP80": "209.727",
+        "POP10": "406.220",
+        "AREA10": 719.1806059,
+        "SLUG": 15180
+    },
+    {
+        "NAME": "Killeen-Temple-Fort Hood, TX ",
+        "ATT80": 14.8,
+        "ATT10": 19.9,
+        "ATTCHANGE": 5.1,
+        "POP80": "226.661",
+        "POP10": "405.300",
+        "AREA10": 718.3657504,
+        "SLUG": 28660
+    },
+    {
+        "NAME": "Canton-Massillon, OH ",
+        "ATT80": 11,
+        "ATT10": 19.8,
+        "ATTCHANGE": 8.8,
+        "POP80": "404.421",
+        "POP10": "404.422",
+        "AREA10": 717.5872319,
+        "SLUG": 15940
+    },
+    {
+        "NAME": "Manchester-Nashua, NH ",
+        "ATT80": 18.5,
+        "ATT10": 34.6,
+        "ATTCHANGE": 16.1,
+        "POP80": "276.608",
+        "POP10": "400.721",
+        "AREA10": 714.2962458,
+        "SLUG": 31700
+    },
+    {
+        "NAME": "Shreveport-Bossier City, LA ",
+        "ATT80": 14.8,
+        "ATT10": 21.3,
+        "ATTCHANGE": 6.5,
+        "POP80": "358.806",
+        "POP10": "398.604",
+        "AREA10": 712.4069418,
+        "SLUG": 43340
+    },
+    {
+        "NAME": "Salem, OR ",
+        "ATT80": 17.3,
+        "ATT10": 22.3,
+        "ATTCHANGE": 5,
+        "POP80": "249.895",
+        "POP10": "390.738",
+        "AREA10": 705.3426432,
+        "SLUG": 41420
+    },
+    {
+        "NAME": "Beaumont-Port Arthur, TX ",
+        "ATT80": 12.1,
+        "ATT10": 16.3,
+        "ATTCHANGE": 4.2,
+        "POP80": "375.497",
+        "POP10": "388.745",
+        "AREA10": 703.5415066,
+        "SLUG": 13140
+    },
+    {
+        "NAME": "Anchorage, AK ",
+        "ATT80": 23.1,
+        "ATT10": 30.2,
+        "ATTCHANGE": 7.1,
+        "POP80": "192.247",
+        "POP10": "380.821",
+        "AREA10": 696.3342563,
+        "SLUG": 11260
+    },
+    {
+        "NAME": "Davenport-Moline-Rock Island, IA-IL ",
+        "ATT80": 14.2,
+        "ATT10": 24.4,
+        "ATTCHANGE": 10.2,
+        "POP80": "403.244",
+        "POP10": "379.690",
+        "AREA10": 695.2994661,
+        "SLUG": 19340
+    },
+    {
+        "NAME": "Peoria, IL ",
+        "ATT80": 14,
+        "ATT10": 25.5,
+        "ATTCHANGE": 11.5,
+        "POP80": "387.732",
+        "POP10": "379.186",
+        "AREA10": 694.8378431,
+        "SLUG": 37900
+    },
+    {
+        "NAME": "Montgomery, AL ",
+        "ATT80": 17.1,
+        "ATT10": 26.4,
+        "ATTCHANGE": 9.3,
+        "POP80": "285.940",
+        "POP10": "374.536",
+        "AREA10": 690.5642641,
+        "SLUG": 33860
+    },
+    {
+        "NAME": "Tallahassee, FL ",
+        "ATT80": 24.9,
+        "ATT10": 33.6,
+        "ATTCHANGE": 8.7,
+        "POP80": "211.810",
+        "POP10": "367.413",
+        "AREA10": 683.966098,
+        "SLUG": 45220
+    },
+    {
+        "NAME": "Trenton-Ewing, NJ ",
+        "ATT80": 21.8,
+        "ATT10": 38.2,
+        "ATTCHANGE": 16.4,
+        "POP80": "307.863",
+        "POP10": "366.513",
+        "AREA10": 683.1278766,
+        "SLUG": 45940
+    },
+    {
+        "NAME": "Fayetteville, NC ",
+        "ATT80": 13.8,
+        "ATT10": 21,
+        "ATTCHANGE": 7.2,
+        "POP80": "267.543",
+        "POP10": "366.383",
+        "AREA10": 683.0067151,
+        "SLUG": 22220
+    },
+    {
+        "NAME": "Hickory-Lenoir-Morganton, NC ",
+        "ATT80": 9.3,
+        "ATT10": 15.9,
+        "ATTCHANGE": 6.6,
+        "POP80": "270.457",
+        "POP10": "365.497",
+        "AREA10": 682.18038,
+        "SLUG": 25860
+    },
+    {
+        "NAME": "Wilmington, NC ",
+        "ATT80": 13.2,
+        "ATT10": 29.5,
+        "ATTCHANGE": 16.3,
+        "POP80": "161.463",
+        "POP10": "362.315",
+        "AREA10": 679.2043732,
+        "SLUG": 48900
+    },
+    {
+        "NAME": "Evansville, IN-KY ",
+        "ATT80": 11.4,
+        "ATT10": 20.2,
+        "ATTCHANGE": 8.8,
+        "POP80": "324.240",
+        "POP10": "358.676",
+        "AREA10": 675.7848872,
+        "SLUG": 21780
+    },
+    {
+        "NAME": "Eugene-Springfield, OR ",
+        "ATT80": 20.4,
+        "ATT10": 27.7,
+        "ATTCHANGE": 7.3,
+        "POP80": "275.226",
+        "POP10": "351.715",
+        "AREA10": 669.1951144,
+        "SLUG": 21660
+    },
+    {
+        "NAME": "Rockford, IL ",
+        "ATT80": 13.2,
+        "ATT10": 21.1,
+        "ATTCHANGE": 7.9,
+        "POP80": "279.514",
+        "POP10": "349.431",
+        "AREA10": 667.0187342,
+        "SLUG": 40420
+    },
+    {
+        "NAME": "Savannah, GA ",
+        "ATT80": 13,
+        "ATT10": 26.9,
+        "ATTCHANGE": 13.9,
+        "POP80": "230.728",
+        "POP10": "347.611",
+        "AREA10": 665.2793937,
+        "SLUG": 42340
+    },
+    {
+        "NAME": "Ann Arbor, MI ",
+        "ATT80": 36.1,
+        "ATT10": 50.8,
+        "ATTCHANGE": 14.7,
+        "POP80": "264.748",
+        "POP10": "344.791",
+        "AREA10": 662.5753534,
+        "SLUG": 11460
+    },
+    {
+        "NAME": "Ocala, FL ",
+        "ATT80": 9.6,
+        "ATT10": 17.1,
+        "ATTCHANGE": 7.5,
+        "POP80": "122.488",
+        "POP10": "331.298",
+        "AREA10": 649.4814078,
+        "SLUG": 36100
+    },
+    {
+        "NAME": "Kalamazoo-Portage, MI ",
+        "ATT80": 19.8,
+        "ATT10": 29.6,
+        "ATTCHANGE": 9.8,
+        "POP80": "279.192",
+        "POP10": "326.589",
+        "AREA10": 644.8490923,
+        "SLUG": 28020
+    },
+    {
+        "NAME": "Naples-Marco Island, FL ",
+        "ATT80": 18.5,
+        "ATT10": 30.8,
+        "ATTCHANGE": 12.3,
+        "POP80": "85.971",
+        "POP10": "321.520",
+        "AREA10": 639.8251585,
+        "SLUG": 34940
+    },
+    {
+        "NAME": "South Bend-Mishawaka, IN-MI ",
+        "ATT80": 13.5,
+        "ATT10": 23.8,
+        "ATTCHANGE": 10.3,
+        "POP80": "291.116",
+        "POP10": "319.224",
+        "AREA10": 637.5365441,
+        "SLUG": 43780
+    },
+    {
+        "NAME": "Kingsport-Bristol-Bristol, TN-VA ",
+        "ATT80": 10.6,
+        "ATT10": 18,
+        "ATTCHANGE": 7.4,
+        "POP80": "278.316",
+        "POP10": "309.544",
+        "AREA10": 627.7959527,
+        "SLUG": 28700
+    },
+    {
+        "NAME": "Roanoke, VA ",
+        "ATT80": 13.3,
+        "ATT10": 24.5,
+        "ATTCHANGE": 11.2,
+        "POP80": "260.081",
+        "POP10": "308.707",
+        "AREA10": 626.9466051,
+        "SLUG": 40220
+    },
+    {
+        "NAME": "Green Bay, WI ",
+        "ATT80": 12.9,
+        "ATT10": 23.1,
+        "ATTCHANGE": 10.2,
+        "POP80": "223.766",
+        "POP10": "306.241",
+        "AREA10": 624.4375103,
+        "SLUG": 24580
+    },
+    {
+        "NAME": "Charleston, WV ",
+        "ATT80": 12.9,
+        "ATT10": 20.7,
+        "ATTCHANGE": 7.8,
+        "POP80": "334.982",
+        "POP10": "304.284",
+        "AREA10": 622.4391123,
+        "SLUG": 16700
+    },
+    {
+        "NAME": "Lincoln, NE ",
+        "ATT80": 23,
+        "ATT10": 34.8,
+        "ATTCHANGE": 11.8,
+        "POP80": "208.673",
+        "POP10": "302.157",
+        "AREA10": 620.2598165,
+        "SLUG": 30700
+    },
+    {
+        "NAME": "Fort Collins-Loveland, CO ",
+        "ATT80": 28.8,
+        "ATT10": 42.5,
+        "ATTCHANGE": 13.7,
+        "POP80": "149.184",
+        "POP10": "299.630",
+        "AREA10": 617.6606918,
+        "SLUG": 22660
+    },
+    {
+        "NAME": "Utica-Rome, NY ",
+        "ATT80": 12.6,
+        "ATT10": 20.8,
+        "ATTCHANGE": 8.2,
+        "POP80": "320.180",
+        "POP10": "299.397",
+        "AREA10": 617.4204906,
+        "SLUG": 46540
+    },
+    {
+        "NAME": "Fort Smith, AR-OK ",
+        "ATT80": 9.2,
+        "ATT10": 14.5,
+        "ATTCHANGE": 5.3,
+        "POP80": "218.216",
+        "POP10": "298.592",
+        "AREA10": 616.5898911,
+        "SLUG": 22900
+    },
+    {
+        "NAME": "Columbus, GA-AL ",
+        "ATT80": 11.7,
+        "ATT10": 20.4,
+        "ATTCHANGE": 8.7,
+        "POP80": "259.957",
+        "POP10": "294.865",
+        "AREA10": 612.7296962,
+        "SLUG": 17980
+    },
+    {
+        "NAME": "Boulder, CO ",
+        "ATT80": 36.4,
+        "ATT10": 57,
+        "ATTCHANGE": 20.6,
+        "POP80": "189.625",
+        "POP10": "294.567",
+        "AREA10": 612.4199958,
+        "SLUG": 14500
+    },
+    {
+        "NAME": "Huntington-Ashland, WV-KY-OH ",
+        "ATT80": 10.1,
+        "ATT10": 16.9,
+        "ATTCHANGE": 6.8,
+        "POP80": "311.350",
+        "POP10": "287.702",
+        "AREA10": 605.2415807,
+        "SLUG": 26580
+    },
+    {
+        "NAME": "Lubbock, TX ",
+        "ATT80": 19.6,
+        "ATT10": 27.2,
+        "ATTCHANGE": 7.6,
+        "POP80": "220.510",
+        "POP10": "284.890",
+        "AREA10": 602.2765014,
+        "SLUG": 31180
+    },
+    {
+        "NAME": "Spartanburg, SC ",
+        "ATT80": 12.5,
+        "ATT10": 19.9,
+        "ATTCHANGE": 7.4,
+        "POP80": "201.861",
+        "POP10": "284.307",
+        "AREA10": 601.6599353,
+        "SLUG": 43900
+    },
+    {
+        "NAME": "Erie, PA ",
+        "ATT80": 13.2,
+        "ATT10": 23.3,
+        "ATTCHANGE": 10.1,
+        "POP80": "279.780",
+        "POP10": "280.566",
+        "AREA10": 597.6884131,
+        "SLUG": 21500
+    },
+    {
+        "NAME": "Duluth, MN-WI ",
+        "ATT80": 13.9,
+        "ATT10": 24.5,
+        "ATTCHANGE": 10.6,
+        "POP80": "296.586",
+        "POP10": "279.771",
+        "AREA10": 596.84102,
+        "SLUG": 20260
+    },
+    {
+        "NAME": "Atlantic City-Hammonton, NJ ",
+        "ATT80": 12.5,
+        "ATT10": 23.5,
+        "ATTCHANGE": 11,
+        "POP80": "194.119",
+        "POP10": "274.549",
+        "AREA10": 591.2446847,
+        "SLUG": 12100
+    },
+    {
+        "NAME": "Norwich-New London, CT ",
+        "ATT80": 16.9,
+        "ATT10": 30.6,
+        "ATTCHANGE": 13.7,
+        "POP80": "238.409",
+        "POP10": "274.055",
+        "AREA10": 590.7125276,
+        "SLUG": 35980
+    },
+    {
+        "NAME": "Clarksville, TN-KY ",
+        "ATT80": 11.4,
+        "ATT10": 19,
+        "ATTCHANGE": 7.6,
+        "POP80": "168.269",
+        "POP10": "273.949",
+        "AREA10": 590.5982776,
+        "SLUG": 17300
+    },
+    {
+        "NAME": "Lafayette, LA ",
+        "ATT80": 17.7,
+        "ATT10": 24.4,
+        "ATTCHANGE": 6.7,
+        "POP80": "190.231",
+        "POP10": "273.738",
+        "AREA10": 590.3707896,
+        "SLUG": 29180
+    },
+    {
+        "NAME": "San Luis Obispo-Paso Robles, CA ",
+        "ATT80": 19,
+        "ATT10": 30.6,
+        "ATTCHANGE": 11.6,
+        "POP80": "155.435",
+        "POP10": "269.637",
+        "AREA10": 585.9317874,
+        "SLUG": 42020
+    },
+    {
+        "NAME": "Myrtle Beach-North Myrtle Beach-Conway, SC ",
+        "ATT80": 12.5,
+        "ATT10": 21.8,
+        "ATTCHANGE": 9.3,
+        "POP80": "101.419",
+        "POP10": "269.291",
+        "AREA10": 585.555731,
+        "SLUG": 34820
+    },
+    {
+        "NAME": "Hagerstown-Martinsburg, MD-WV ",
+        "ATT80": 9.8,
+        "ATT10": 18.6,
+        "ATTCHANGE": 8.8,
+        "POP80": "170.572",
+        "POP10": "269.140",
+        "AREA10": 585.3915381,
+        "SLUG": 25180
+    },
+    {
+        "NAME": "Gainesville, FL ",
+        "ATT80": 28.4,
+        "ATT10": 38.6,
+        "ATTCHANGE": 10.2,
+        "POP80": "157.115",
+        "POP10": "264.275",
+        "AREA10": 580.076614,
+        "SLUG": 23540
+    },
+    {
+        "NAME": "Holland-Grand Haven, MI ",
+        "ATT80": 14.7,
+        "ATT10": 28.8,
+        "ATTCHANGE": 14.1,
+        "POP80": "157.174",
+        "POP10": "263.801",
+        "AREA10": 579.5561718,
+        "SLUG": 26100
+    },
+    {
+        "NAME": "Santa Cruz-Watsonville, CA ",
+        "ATT80": 23.5,
+        "ATT10": 37.2,
+        "ATTCHANGE": 13.7,
+        "POP80": "188.141",
+        "POP10": "262.382",
+        "AREA10": 577.9953379,
+        "SLUG": 42100
+    },
+    {
+        "NAME": "Cedar Rapids, IA ",
+        "ATT80": 15,
+        "ATT10": 27.2,
+        "ATTCHANGE": 12.2,
+        "POP80": "213.825",
+        "POP10": "257.940",
+        "AREA10": 573.0818631,
+        "SLUG": 16300
+    },
+    {
+        "NAME": "Merced, CA ",
+        "ATT80": 10.5,
+        "ATT10": 12.5,
+        "ATTCHANGE": 2,
+        "POP80": "134.560",
+        "POP10": "255.793",
+        "AREA10": 570.6918153,
+        "SLUG": 32900
+    },
+    {
+        "NAME": "Kennewick-Pasco-Richland, WA ",
+        "ATT80": 20.3,
+        "ATT10": 24.1,
+        "ATTCHANGE": 3.8,
+        "POP80": "144.469",
+        "POP10": "253.340",
+        "AREA10": 567.9488172,
+        "SLUG": 28420
+    },
+    {
+        "NAME": "Greeley, CO ",
+        "ATT80": 16.8,
+        "ATT10": 25.4,
+        "ATTCHANGE": 8.6,
+        "POP80": "123.438",
+        "POP10": "252.825",
+        "AREA10": 567.3712487,
+        "SLUG": 24540
+    },
+    {
+        "NAME": "Lynchburg, VA ",
+        "ATT80": 12.8,
+        "ATT10": 21.5,
+        "ATTCHANGE": 8.7,
+        "POP80": "188.187",
+        "POP10": "252.634",
+        "AREA10": 567.1568941,
+        "SLUG": 31340
+    },
+    {
+        "NAME": "Olympia, WA ",
+        "ATT80": 20.3,
+        "ATT10": 31.6,
+        "ATTCHANGE": 11.3,
+        "POP80": "124.264",
+        "POP10": "252.264",
+        "AREA10": 566.7414216,
+        "SLUG": 36500
+    },
+    {
+        "NAME": "Binghamton, NY ",
+        "ATT80": 15.4,
+        "ATT10": 24.6,
+        "ATTCHANGE": 9.2,
+        "POP80": "263.460",
+        "POP10": "251.725",
+        "AREA10": 566.1356337,
+        "SLUG": 13780
+    },
+    {
+        "NAME": "Bremerton-Silverdale, WA ",
+        "ATT80": 16.4,
+        "ATT10": 28,
+        "ATTCHANGE": 11.6,
+        "POP80": "147.152",
+        "POP10": "251.133",
+        "AREA10": 565.4695307,
+        "SLUG": 14740
+    },
+    {
+        "NAME": "Laredo, TX ",
+        "ATT80": 9.8,
+        "ATT10": 16.7,
+        "ATTCHANGE": 6.9,
+        "POP80": "99.258",
+        "POP10": "250.304",
+        "AREA10": 564.5354405,
+        "SLUG": 29700
+    },
+    {
+        "NAME": "Amarillo, TX ",
+        "ATT80": 16.1,
+        "ATT10": 22.6,
+        "ATTCHANGE": 6.5,
+        "POP80": "182.365",
+        "POP10": "249.881",
+        "AREA10": 564.0582219,
+        "SLUG": 11100
+    },
+    {
+        "NAME": "Gulfport-Biloxi, MS ",
+        "ATT80": 13.4,
+        "ATT10": 19.8,
+        "ATTCHANGE": 6.4,
+        "POP80": "191.918",
+        "POP10": "248.820",
+        "AREA10": 562.8594464,
+        "SLUG": 25060
+    },
+    {
+        "NAME": "Yakima, WA ",
+        "ATT80": 11.3,
+        "ATT10": 15.6,
+        "ATTCHANGE": 4.3,
+        "POP80": "172.508",
+        "POP10": "243.231",
+        "AREA10": 556.5020635,
+        "SLUG": 49420
+    },
+    {
+        "NAME": "Waco, TX ",
+        "ATT80": 14.5,
+        "ATT10": 20.6,
+        "ATTCHANGE": 6.1,
+        "POP80": "170.755",
+        "POP10": "234.906",
+        "AREA10": 546.8955268,
+        "SLUG": 47380
+    },
+    {
+        "NAME": "Topeka, KS ",
+        "ATT80": 17.4,
+        "ATT10": 26.8,
+        "ATTCHANGE": 9.4,
+        "POP80": "203.953",
+        "POP10": "233.870",
+        "AREA10": 545.6882145,
+        "SLUG": 45820
+    },
+    {
+        "NAME": "Macon, GA ",
+        "ATT80": 12,
+        "ATT10": 20.7,
+        "ATTCHANGE": 8.7,
+        "POP80": "198.483",
+        "POP10": "232.293",
+        "AREA10": 543.8452976,
+        "SLUG": 31420
+    },
+    {
+        "NAME": "Champaign-Urbana, IL ",
+        "ATT80": 26.4,
+        "ATT10": 37.9,
+        "ATTCHANGE": 11.5,
+        "POP80": "200.238",
+        "POP10": "231.891",
+        "AREA10": 543.3745119,
+        "SLUG": 16580
+    },
+    {
+        "NAME": "College Station-Bryan, TX ",
+        "ATT80": 24.7,
+        "ATT10": 33.9,
+        "ATTCHANGE": 9.2,
+        "POP80": "120.554",
+        "POP10": "228.660",
+        "AREA10": 539.5757411,
+        "SLUG": 17780
+    },
+    {
+        "NAME": "Sioux Falls, SD ",
+        "ATT80": 15.3,
+        "ATT10": 29.8,
+        "ATTCHANGE": 14.5,
+        "POP80": "139.076",
+        "POP10": "228.261",
+        "AREA10": 539.1047696,
+        "SLUG": 43620
+    },
+    {
+        "NAME": "Appleton, WI ",
+        "ATT80": 12.8,
+        "ATT10": 25.7,
+        "ATTCHANGE": 12.9,
+        "POP80": "159.666",
+        "POP10": "225.666",
+        "AREA10": 536.0315864,
+        "SLUG": 11540
+    },
+    {
+        "NAME": "Chico, CA ",
+        "ATT80": 16.9,
+        "ATT10": 24.2,
+        "ATTCHANGE": 7.3,
+        "POP80": "143.851",
+        "POP10": "220.000",
+        "AREA10": 529.2594934,
+        "SLUG": 17020
+    },
+    {
+        "NAME": "Tuscaloosa, AL ",
+        "ATT80": 15.2,
+        "ATT10": 24.1,
+        "ATTCHANGE": 8.9,
+        "POP80": "164.166",
+        "POP10": "219.461",
+        "AREA10": 528.6107529,
+        "SLUG": 46220
+    },
+    {
+        "NAME": "Barnstable Town, MA ",
+        "ATT80": 23.7,
+        "ATT10": 40.5,
+        "ATTCHANGE": 16.8,
+        "POP80": "147.925",
+        "POP10": "215.888",
+        "AREA10": 524.2899922,
+        "SLUG": 12700
+    },
+    {
+        "NAME": "Longview, TX ",
+        "ATT80": 12.4,
+        "ATT10": 17.9,
+        "ATTCHANGE": 5.5,
+        "POP80": "169.464",
+        "POP10": "214.369",
+        "AREA10": 522.4422695,
+        "SLUG": 30980
+    },
+    {
+        "NAME": "Burlington-South Burlington, VT ",
+        "ATT80": 22.1,
+        "ATT10": 38.7,
+        "ATTCHANGE": 16.6,
+        "POP80": "154.935",
+        "POP10": "211.261",
+        "AREA10": 518.6411624,
+        "SLUG": 15540
+    },
+    {
+        "NAME": "Prescott, AZ ",
+        "ATT80": 16.2,
+        "ATT10": 23.7,
+        "ATTCHANGE": 7.5,
+        "POP80": "68.145",
+        "POP10": "211.033",
+        "AREA10": 518.3612193,
+        "SLUG": 39140
+    },
+    {
+        "NAME": "Springfield, IL ",
+        "ATT80": 18.3,
+        "ATT10": 30.7,
+        "ATTCHANGE": 12.4,
+        "POP80": "187.789",
+        "POP10": "210.170",
+        "AREA10": 517.3002383,
+        "SLUG": 44100
+    },
+    {
+        "NAME": "Tyler, TX ",
+        "ATT80": 16.1,
+        "ATT10": 24.5,
+        "ATTCHANGE": 8.4,
+        "POP80": "128.366",
+        "POP10": "209.714",
+        "AREA10": 516.7387476,
+        "SLUG": 46340
+    },
+    {
+        "NAME": "Las Cruces, NM ",
+        "ATT80": 19.3,
+        "ATT10": 25.4,
+        "ATTCHANGE": 6.1,
+        "POP80": "96.340",
+        "POP10": "209.233",
+        "AREA10": 516.1458115,
+        "SLUG": 29740
+    },
+    {
+        "NAME": "Fargo, ND-MN ",
+        "ATT80": 20.8,
+        "ATT10": 35,
+        "ATTCHANGE": 14.2,
+        "POP80": "137.574",
+        "POP10": "208.777",
+        "AREA10": 515.5830635,
+        "SLUG": 22020
+    },
+    {
+        "NAME": "Houma-Bayou Cane-Thibodaux, LA ",
+        "ATT80": 9.7,
+        "ATT10": 14,
+        "ATTCHANGE": 4.3,
+        "POP80": "176.876",
+        "POP10": "208.178",
+        "AREA10": 514.8429052,
+        "SLUG": 26380
+    },
+    {
+        "NAME": "Florence, SC ",
+        "ATT80": 11.5,
+        "ATT10": 19.1,
+        "ATTCHANGE": 7.6,
+        "POP80": "172.880",
+        "POP10": "205.566",
+        "AREA10": 511.6028545,
+        "SLUG": 22500
+    },
+    {
+        "NAME": "Medford, OR ",
+        "ATT80": 15.3,
+        "ATT10": 24.4,
+        "ATTCHANGE": 9.1,
+        "POP80": "132.456",
+        "POP10": "203.206",
+        "AREA10": 508.6576493,
+        "SLUG": 32780
+    },
+    {
+        "NAME": "Lafayette, IN ",
+        "ATT80": 21.6,
+        "ATT10": 31.9,
+        "ATTCHANGE": 10.3,
+        "POP80": "151.642",
+        "POP10": "201.789",
+        "AREA10": 506.8810561,
+        "SLUG": 29140
+    },
+    {
+        "NAME": "Charlottesville, VA ",
+        "ATT80": 26.5,
+        "ATT10": 41.6,
+        "ATTCHANGE": 15.1,
+        "POP80": "125.772",
+        "POP10": "201.559",
+        "AREA10": 506.5921011,
+        "SLUG": 16820
+    },
+    {
+        "NAME": "Bellingham, WA ",
+        "ATT80": 17.9,
+        "ATT10": 31.7,
+        "ATTCHANGE": 13.8,
+        "POP80": "106.701",
+        "POP10": "201.140",
+        "AREA10": 506.0652764,
+        "SLUG": 13380
+    },
+    {
+        "NAME": "Lake Havasu City-Kingman, AZ ",
+        "ATT80": 8.8,
+        "ATT10": 12,
+        "ATTCHANGE": 3.2,
+        "POP80": "55.865",
+        "POP10": "200.186",
+        "AREA10": 504.863725,
+        "SLUG": 29420
+    },
+    {
+        "NAME": "Saginaw-Saginaw Township North, MI ",
+        "ATT80": 11.3,
+        "ATT10": 18,
+        "ATTCHANGE": 6.7,
+        "POP80": "228.059",
+        "POP10": "200.169",
+        "AREA10": 504.8422877,
+        "SLUG": 40980
+    },
+    {
+        "NAME": "Lake Charles, LA ",
+        "ATT80": 13.2,
+        "ATT10": 18.9,
+        "ATTCHANGE": 5.7,
+        "POP80": "176.559",
+        "POP10": "199.607",
+        "AREA10": 504.133085,
+        "SLUG": 29340
+    },
+    {
+        "NAME": "Johnson City, TN ",
+        "ATT80": 12,
+        "ATT10": 22.5,
+        "ATTCHANGE": 10.5,
+        "POP80": "155.322",
+        "POP10": "198.716",
+        "AREA10": 503.0066592,
+        "SLUG": 27740
+    },
+    {
+        "NAME": "Elkhart-Goshen, IN ",
+        "ATT80": 12.3,
+        "ATT10": 18.1,
+        "ATTCHANGE": 5.8,
+        "POP80": "137.330",
+        "POP10": "197.559",
+        "AREA10": 501.5401736,
+        "SLUG": 21300
+    },
+    {
+        "NAME": "Yuma, AZ ",
+        "ATT80": 10.9,
+        "ATT10": 13.3,
+        "ATTCHANGE": 2.4,
+        "POP80": "90.554",
+        "POP10": "195.751",
+        "AREA10": 499.239927,
+        "SLUG": 49740
+    },
+    {
+        "NAME": "Racine, WI ",
+        "ATT80": 14,
+        "ATT10": 23,
+        "ATTCHANGE": 9,
+        "POP80": "173.132",
+        "POP10": "195.408",
+        "AREA10": 498.8023446,
+        "SLUG": 39540
+    },
+    {
+        "NAME": "Bloomington, IN ",
+        "ATT80": 22.3,
+        "ATT10": 31.6,
+        "ATTCHANGE": 9.3,
+        "POP80": "145.042",
+        "POP10": "192.714",
+        "AREA10": 495.3520324,
+        "SLUG": 14060
+    },
+    {
+        "NAME": "Athens-Clarke County, GA ",
+        "ATT80": 26.2,
+        "ATT10": 34.3,
+        "ATTCHANGE": 8.1,
+        "POP80": "113.601",
+        "POP10": "192.541",
+        "AREA10": 495.1296429,
+        "SLUG": 12020
+    },
+    {
+        "NAME": "Greenville, NC ",
+        "ATT80": 15.8,
+        "ATT10": 25.7,
+        "ATTCHANGE": 9.9,
+        "POP80": "106.263",
+        "POP10": "189.510",
+        "AREA10": 491.2169929,
+        "SLUG": 24780
+    },
+    {
+        "NAME": "St. Cloud, MN ",
+        "ATT80": 14.1,
+        "ATT10": 22.7,
+        "ATTCHANGE": 8.6,
+        "POP80": "133.348",
+        "POP10": "189.093",
+        "AREA10": 490.6762555,
+        "SLUG": 41060
+    },
+    {
+        "NAME": "Anderson, SC ",
+        "ATT80": 10.1,
+        "ATT10": 17.9,
+        "ATTCHANGE": 7.8,
+        "POP80": "133.235",
+        "POP10": "187.126",
+        "AREA10": 488.1175058,
+        "SLUG": 11340
+    },
+    {
+        "NAME": "Rochester, MN ",
+        "ATT80": 20.7,
+        "ATT10": 34.7,
+        "ATTCHANGE": 14,
+        "POP80": "126.114",
+        "POP10": "186.011",
+        "AREA10": 486.6610963,
+        "SLUG": 40340
+    },
+    {
+        "NAME": "Kingston, NY ",
+        "ATT80": 16,
+        "ATT10": 29.6,
+        "ATTCHANGE": 13.6,
+        "POP80": "158.158",
+        "POP10": "182.493",
+        "AREA10": 482.0370519,
+        "SLUG": 28740
+    },
+    {
+        "NAME": "Crestview-Fort Walton Beach-Destin, FL ",
+        "ATT80": 16.6,
+        "ATT10": 26.8,
+        "ATTCHANGE": 10.2,
+        "POP80": "109.920",
+        "POP10": "180.822",
+        "AREA10": 479.8250869,
+        "SLUG": 18880
+    },
+    {
+        "NAME": "Gainesville, GA ",
+        "ATT80": 12.2,
+        "ATT10": 21,
+        "ATTCHANGE": 8.8,
+        "POP80": "75.649",
+        "POP10": "179.684",
+        "AREA10": 478.3128185,
+        "SLUG": 23580
+    },
+    {
+        "NAME": "Jacksonville, NC ",
+        "ATT80": 11.4,
+        "ATT10": 17.7,
+        "ATTCHANGE": 6.3,
+        "POP80": "112.784",
+        "POP10": "177.772",
+        "AREA10": 475.7611722,
+        "SLUG": 27340
+    },
+    {
+        "NAME": "Redding, CA ",
+        "ATT80": 12.4,
+        "ATT10": 20,
+        "ATTCHANGE": 7.6,
+        "POP80": "115.715",
+        "POP10": "177.223",
+        "AREA10": 475.0259753,
+        "SLUG": 39820
+    },
+    {
+        "NAME": "Monroe, LA ",
+        "ATT80": 14.2,
+        "ATT10": 22.1,
+        "ATTCHANGE": 7.9,
+        "POP80": "160.408",
+        "POP10": "176.441",
+        "AREA10": 473.9767859,
+        "SLUG": 33740
+    },
+    {
+        "NAME": "Joplin, MO ",
+        "ATT80": 10.5,
+        "ATT10": 18.5,
+        "ATTCHANGE": 8,
+        "POP80": "127.513",
+        "POP10": "175.518",
+        "AREA10": 472.7354241,
+        "SLUG": 27900
+    },
+    {
+        "NAME": "El Centro, CA ",
+        "ATT80": 9.6,
+        "ATT10": 12.2,
+        "ATTCHANGE": 2.6,
+        "POP80": "92.110",
+        "POP10": "174.528",
+        "AREA10": 471.4003193,
+        "SLUG": 20940
+    },
+    {
+        "NAME": "Columbia, MO ",
+        "ATT80": 32.1,
+        "ATT10": 43.6,
+        "ATTCHANGE": 11.5,
+        "POP80": "110.384",
+        "POP10": "172.786",
+        "AREA10": 469.0418474,
+        "SLUG": 17860
+    },
+    {
+        "NAME": "Terre Haute, IN ",
+        "ATT80": 13.1,
+        "ATT10": 18.2,
+        "ATTCHANGE": 5.1,
+        "POP80": "176.583",
+        "POP10": "172.425",
+        "AREA10": 468.5516091,
+        "SLUG": 45460
+    },
+    {
+        "NAME": "Muskegon-Norton Shores, MI ",
+        "ATT80": 10.6,
+        "ATT10": 16.5,
+        "ATTCHANGE": 5.9,
+        "POP80": "157.589",
+        "POP10": "172.188",
+        "AREA10": 468.2294838,
+        "SLUG": 34740
+    },
+    {
+        "NAME": "Bloomington-Normal, IL ",
+        "ATT80": 22.8,
+        "ATT10": 40.4,
+        "ATTCHANGE": 17.6,
+        "POP80": "119.149",
+        "POP10": "169.572",
+        "AREA10": 464.6590365,
+        "SLUG": 14020
+    },
+    {
+        "NAME": "Panama City-Lynn Haven-Panama City Beach, FL ",
+        "ATT80": 13.2,
+        "ATT10": 20.4,
+        "ATTCHANGE": 7.2,
+        "POP80": "97.740",
+        "POP10": "168.852",
+        "AREA10": 463.6715197,
+        "SLUG": 37460
+    },
+    {
+        "NAME": "Waterloo-Cedar Falls, IA ",
+        "ATT80": 14.7,
+        "ATT10": 24.7,
+        "ATTCHANGE": 10,
+        "POP80": "177.147",
+        "POP10": "167.819",
+        "AREA10": 462.2510228,
+        "SLUG": 47940
+    },
+    {
+        "NAME": "Oshkosh-Neenah, WI ",
+        "ATT80": 15.3,
+        "ATT10": 23.7,
+        "ATTCHANGE": 8.4,
+        "POP80": "131.703",
+        "POP10": "166.994",
+        "AREA10": 461.1134075,
+        "SLUG": 36780
+    },
+    {
+        "NAME": "Yuba City, CA ",
+        "ATT80": 12,
+        "ATT10": 16.1,
+        "ATTCHANGE": 4.1,
+        "POP80": "101.979",
+        "POP10": "166.892",
+        "AREA10": 460.9725618,
+        "SLUG": 49700
+    },
+    {
+        "NAME": "Abilene, TX ",
+        "ATT80": 15.7,
+        "ATT10": 21.4,
+        "ATTCHANGE": 5.7,
+        "POP80": "139.192",
+        "POP10": "165.252",
+        "AREA10": 458.7020473,
+        "SLUG": 10180
+    },
+    {
+        "NAME": "Blacksburg-Christiansburg-Radford, VA ",
+        "ATT80": 17.4,
+        "ATT10": 28.9,
+        "ATTCHANGE": 11.5,
+        "POP80": "129.780",
+        "POP10": "162.958",
+        "AREA10": 455.507109,
+        "SLUG": 13980
+    },
+    {
+        "NAME": "Dover, DE ",
+        "ATT80": 12.6,
+        "ATT10": 19.9,
+        "ATTCHANGE": 7.3,
+        "POP80": "98.219",
+        "POP10": "162.310",
+        "AREA10": 454.6005483,
+        "SLUG": 20100
+    },
+    {
+        "NAME": "Pascagoula, MS ",
+        "ATT80": 10.7,
+        "ATT10": 17.4,
+        "ATTCHANGE": 6.7,
+        "POP80": "133.312",
+        "POP10": "162.246",
+        "AREA10": 454.5109134,
+        "SLUG": 37700
+    },
+    {
+        "NAME": "Parkersburg-Marietta-Vienna, WV-OH ",
+        "ATT80": 11.1,
+        "ATT10": 17.2,
+        "ATTCHANGE": 6.1,
+        "POP80": "171.072",
+        "POP10": "162.056",
+        "AREA10": 454.2447053,
+        "SLUG": 37620
+    },
+    {
+        "NAME": "Eau Claire, WI ",
+        "ATT80": 14.4,
+        "ATT10": 24.9,
+        "ATTCHANGE": 10.5,
+        "POP80": "130.932",
+        "POP10": "161.151",
+        "AREA10": 452.9745672,
+        "SLUG": 20740
+    },
+    {
+        "NAME": "Janesville, WI ",
+        "ATT80": 12.4,
+        "ATT10": 19.8,
+        "ATTCHANGE": 7.4,
+        "POP80": "139.420",
+        "POP10": "160.331",
+        "AREA10": 451.8206406,
+        "SLUG": 27500
+    },
+    {
+        "NAME": "Jackson, MI ",
+        "ATT80": 12.2,
+        "ATT10": 17.5,
+        "ATTCHANGE": 5.3,
+        "POP80": "151.495",
+        "POP10": "160.248",
+        "AREA10": 451.7036764,
+        "SLUG": 27100
+    },
+    {
+        "NAME": "Punta Gorda, FL ",
+        "ATT80": 12.8,
+        "ATT10": 21.2,
+        "ATTCHANGE": 8.4,
+        "POP80": "58.460",
+        "POP10": "159.978",
+        "AREA10": 451.3229809,
+        "SLUG": 39460
+    },
+    {
+        "NAME": "Pueblo, CO ",
+        "ATT80": 13.2,
+        "ATT10": 21,
+        "ATTCHANGE": 7.8,
+        "POP80": "125.972",
+        "POP10": "159.063",
+        "AREA10": 450.0304509,
+        "SLUG": 39380
+    },
+    {
+        "NAME": "Billings, MT ",
+        "ATT80": 19.3,
+        "ATT10": 29,
+        "ATTCHANGE": 9.7,
+        "POP80": "116.134",
+        "POP10": "158.050",
+        "AREA10": 448.5951423,
+        "SLUG": 13740
+    },
+    {
+        "NAME": "Bend, OR ",
+        "ATT80": 16.6,
+        "ATT10": 29.1,
+        "ATTCHANGE": 12.5,
+        "POP80": "62.142",
+        "POP10": "157.733",
+        "AREA10": 448.1450441,
+        "SLUG": 13460
+    },
+    {
+        "NAME": "Albany, GA ",
+        "ATT80": 12.3,
+        "ATT10": 17.2,
+        "ATTCHANGE": 4.9,
+        "POP80": "146.291",
+        "POP10": "157.308",
+        "AREA10": 447.5408899,
+        "SLUG": 10580
+    },
+    {
+        "NAME": "Vineland-Millville-Bridgeton, NJ ",
+        "ATT80": 8.7,
+        "ATT10": 13.3,
+        "ATTCHANGE": 4.6,
+        "POP80": "132.866",
+        "POP10": "156.898",
+        "AREA10": 446.9572849,
+        "SLUG": 47220
+    },
+    {
+        "NAME": "Niles-Benton Harbor, MI ",
+        "ATT80": 13.3,
+        "ATT10": 23.3,
+        "ATTCHANGE": 10,
+        "POP80": "171.276",
+        "POP10": "156.813",
+        "AREA10": 446.8361982,
+        "SLUG": 35660
+    },
+    {
+        "NAME": "State College, PA ",
+        "ATT80": 27.5,
+        "ATT10": 40.1,
+        "ATTCHANGE": 12.6,
+        "POP80": "112.760",
+        "POP10": "153.990",
+        "AREA10": 442.7958846,
+        "SLUG": 44300
+    },
+    {
+        "NAME": "Bangor, ME ",
+        "ATT80": 14.2,
+        "ATT10": 23.4,
+        "ATTCHANGE": 9.2,
+        "POP80": "137.015",
+        "POP10": "153.923",
+        "AREA10": 442.6995454,
+        "SLUG": 12620
+    },
+    {
+        "NAME": "Alexandria, LA ",
+        "ATT80": 11.4,
+        "ATT10": 18.3,
+        "ATTCHANGE": 6.9,
+        "POP80": "151.985",
+        "POP10": "153.922",
+        "AREA10": 442.6981073,
+        "SLUG": 10780
+    },
+    {
+        "NAME": "Decatur, AL ",
+        "ATT80": 9.9,
+        "ATT10": 17.2,
+        "ATTCHANGE": 7.3,
+        "POP80": "120.401",
+        "POP10": "153.829",
+        "AREA10": 442.5643475,
+        "SLUG": 19460
+    },
+    {
+        "NAME": "Hanford-Corcoran, CA ",
+        "ATT80": 10.2,
+        "ATT10": 11.8,
+        "ATTCHANGE": 1.6,
+        "POP80": "73.738",
+        "POP10": "152.982",
+        "AREA10": 441.3442609,
+        "SLUG": 25260
+    },
+    {
+        "NAME": "Iowa City, IA ",
+        "ATT80": 32.5,
+        "ATT10": 45.5,
+        "ATTCHANGE": 13,
+        "POP80": "101.858",
+        "POP10": "152.586",
+        "AREA10": 440.7726722,
+        "SLUG": 26980
+    },
+    {
+        "NAME": "Rocky Mount, NC ",
+        "ATT80": 9.5,
+        "ATT10": 15.8,
+        "ATTCHANGE": 6.3,
+        "POP80": "123.141",
+        "POP10": "152.392",
+        "AREA10": 440.4923807,
+        "SLUG": 40580
+    },
+    {
+        "NAME": "Monroe, MI ",
+        "ATT80": 8.9,
+        "ATT10": 17,
+        "ATTCHANGE": 8.1,
+        "POP80": "134.659",
+        "POP10": "152.021",
+        "AREA10": 439.9558622,
+        "SLUG": 33780
+    },
+    {
+        "NAME": "Wichita Falls, TX ",
+        "ATT80": 13.5,
+        "ATT10": 19.9,
+        "ATTCHANGE": 6.4,
+        "POP80": "137.930",
+        "POP10": "151.306",
+        "AREA10": 438.9200211,
+        "SLUG": 48660
+    },
+    {
+        "NAME": "Burlington, NC ",
+        "ATT80": 11.8,
+        "ATT10": 21.5,
+        "ATTCHANGE": 9.7,
+        "POP80": "99.319",
+        "POP10": "151.131",
+        "AREA10": 438.666121,
+        "SLUG": 15500
+    },
+    {
+        "NAME": "Madera-Chowchilla, CA ",
+        "ATT80": 10.7,
+        "ATT10": 13.6,
+        "ATTCHANGE": 2.9,
+        "POP80": "63.116",
+        "POP10": "150.865",
+        "AREA10": 438.2799111,
+        "SLUG": 31460
+    },
+    {
+        "NAME": "Jefferson City, MO ",
+        "ATT80": 14.7,
+        "ATT10": 24.5,
+        "ATTCHANGE": 9.8,
+        "POP80": "112.997",
+        "POP10": "149.807",
+        "AREA10": 436.7404023,
+        "SLUG": 27620
+    },
+    {
+        "NAME": "Wheeling, WV-OH ",
+        "ATT80": 9.4,
+        "ATT10": 17.2,
+        "ATTCHANGE": 7.8,
+        "POP80": "185.566",
+        "POP10": "147.950",
+        "AREA10": 434.0250553,
+        "SLUG": 48540
+    },
+    {
+        "NAME": "Florence-Muscle Shoals, AL ",
+        "ATT80": 11.5,
+        "ATT10": 19.5,
+        "ATTCHANGE": 8,
+        "POP80": "135.065",
+        "POP10": "147.137",
+        "AREA10": 432.8309071,
+        "SLUG": 22520
+    },
+    {
+        "NAME": "Grand Junction, CO ",
+        "ATT80": 16.3,
+        "ATT10": 25.4,
+        "ATTCHANGE": 9.1,
+        "POP80": "81.530",
+        "POP10": "146.723",
+        "AREA10": 432.2215491,
+        "SLUG": 24300
+    },
+    {
+        "NAME": "Dothan, AL ",
+        "ATT80": 10.7,
+        "ATT10": 16.4,
+        "ATTCHANGE": 5.7,
+        "POP80": "114.187",
+        "POP10": "145.639",
+        "AREA10": 430.6219473,
+        "SLUG": 20020
+    },
+    {
+        "NAME": "Santa Fe, NM ",
+        "ATT80": 27.2,
+        "ATT10": 40,
+        "ATTCHANGE": 12.8,
+        "POP80": "75.360",
+        "POP10": "144.170",
+        "AREA10": 428.4446909,
+        "SLUG": 42140
+    },
+    {
+        "NAME": "Johnstown, PA ",
+        "ATT80": 8.6,
+        "ATT10": 17.5,
+        "ATTCHANGE": 8.9,
+        "POP80": "183.263",
+        "POP10": "143.679",
+        "AREA10": 427.7144912,
+        "SLUG": 27780
+    },
+    {
+        "NAME": "Sioux City, IA-NE-SD ",
+        "ATT80": 13.5,
+        "ATT10": 19.9,
+        "ATTCHANGE": 6.4,
+        "POP80": "135.532",
+        "POP10": "143.577",
+        "AREA10": 427.5626436,
+        "SLUG": 43580
+    },
+    {
+        "NAME": "Hattiesburg, MS ",
+        "ATT80": 15.7,
+        "ATT10": 26.6,
+        "ATTCHANGE": 10.9,
+        "POP80": "99.703",
+        "POP10": "142.842",
+        "AREA10": 426.4668492,
+        "SLUG": 25620
+    },
+    {
+        "NAME": "Dalton, GA ",
+        "ATT80": 8.7,
+        "ATT10": 12.6,
+        "ATTCHANGE": 3.9,
+        "POP80": "85.474",
+        "POP10": "142.227",
+        "AREA10": 425.5477917,
+        "SLUG": 19140
+    },
+    {
+        "NAME": "Auburn-Opelika, AL ",
+        "ATT80": 21.6,
+        "ATT10": 30.9,
+        "ATTCHANGE": 9.3,
+        "POP80": "76.283",
+        "POP10": "140.247",
+        "AREA10": 422.575298,
+        "SLUG": 12220
+    },
+    {
+        "NAME": "Warner Robins, GA ",
+        "ATT80": 13.2,
+        "ATT10": 24.4,
+        "ATTCHANGE": 11.2,
+        "POP80": "77.605",
+        "POP10": "139.900",
+        "AREA10": 422.052205,
+        "SLUG": 47580
+    },
+    {
+        "NAME": "Valdosta, GA ",
+        "ATT80": 11.4,
+        "ATT10": 20,
+        "ATTCHANGE": 8.6,
+        "POP80": "91.178",
+        "POP10": "139.588",
+        "AREA10": 421.5813194,
+        "SLUG": 46660
+    },
+    {
+        "NAME": "Coeur dAlene, ID ",
+        "ATT80": 13.8,
+        "ATT10": 23.2,
+        "ATTCHANGE": 9.4,
+        "POP80": "59.770",
+        "POP10": "138.494",
+        "AREA10": 419.9260296,
+        "SLUG": 17660
+    },
+    {
+        "NAME": "Springfield, OH ",
+        "ATT80": 10.6,
+        "ATT10": 16.2,
+        "ATTCHANGE": 5.6,
+        "POP80": "150.236",
+        "POP10": "138.333",
+        "AREA10": 419.6818755,
+        "SLUG": 44220
+    },
+    {
+        "NAME": "St. George, UT ",
+        "ATT80": 14.9,
+        "ATT10": 24.1,
+        "ATTCHANGE": 9.2,
+        "POP80": "26.065",
+        "POP10": "138.115",
+        "AREA10": 419.3510553,
+        "SLUG": 41100
+    },
+    {
+        "NAME": "Sebastian-Vero Beach, FL ",
+        "ATT80": 15.5,
+        "ATT10": 26.7,
+        "ATTCHANGE": 11.2,
+        "POP80": "59.896",
+        "POP10": "138.028",
+        "AREA10": 419.2189578,
+        "SLUG": 42680
+    },
+    {
+        "NAME": "Odessa, TX ",
+        "ATT80": 12,
+        "ATT10": 13.1,
+        "ATTCHANGE": 1.1,
+        "POP80": "115.374",
+        "POP10": "137.130",
+        "AREA10": 417.8530287,
+        "SLUG": 36220
+    },
+    {
+        "NAME": "Midland, TX ",
+        "ATT80": 24.3,
+        "ATT10": 23.8,
+        "ATTCHANGE": -0.5,
+        "POP80": "82.636",
+        "POP10": "136.872",
+        "AREA10": 417.4597637,
+        "SLUG": 33260
+    },
+    {
+        "NAME": "Morristown, TN ",
+        "ATT80": 8,
+        "ATT10": 13.4,
+        "ATTCHANGE": 5.4,
+        "POP80": "97.335",
+        "POP10": "136.608",
+        "AREA10": 417.0569693,
+        "SLUG": 34100
+    },
+    {
+        "NAME": "Napa, CA ",
+        "ATT80": 17.8,
+        "ATT10": 30,
+        "ATTCHANGE": 12.2,
+        "POP80": "99.199",
+        "POP10": "136.484",
+        "AREA10": 416.8676436,
+        "SLUG": 34900
+    },
+    {
+        "NAME": "Battle Creek, MI ",
+        "ATT80": 11.9,
+        "ATT10": 18.8,
+        "ATTCHANGE": 6.9,
+        "POP80": "141.557",
+        "POP10": "136.146",
+        "AREA10": 416.3511413,
+        "SLUG": 12980
+    },
+    {
+        "NAME": "Texarkana, TX-Texarkana, AR ",
+        "ATT80": 10.4,
+        "ATT10": 16.4,
+        "ATTCHANGE": 6,
+        "POP80": "113.067",
+        "POP10": "136.027",
+        "AREA10": 416.1691432,
+        "SLUG": 45500
+    },
+    {
+        "NAME": "Flagstaff, AZ ",
+        "ATT80": 23.2,
+        "ATT10": 31,
+        "ATTCHANGE": 7.8,
+        "POP80": "75.008",
+        "POP10": "134.421",
+        "AREA10": 413.7051024,
+        "SLUG": 22380
+    },
+    {
+        "NAME": "Wausau, WI ",
+        "ATT80": 11.6,
+        "ATT10": 20.8,
+        "ATTCHANGE": 9.2,
+        "POP80": "111.270",
+        "POP10": "134.063",
+        "AREA10": 413.1538301,
+        "SLUG": 48140
+    },
+    {
+        "NAME": "La Crosse, WI-MN ",
+        "ATT80": 16.5,
+        "ATT10": 27.7,
+        "ATTCHANGE": 11.2,
+        "POP80": "109.438",
+        "POP10": "133.665",
+        "AREA10": 412.5400983,
+        "SLUG": 29100
+    },
+    {
+        "NAME": "Lebanon, PA ",
+        "ATT80": 9.4,
+        "ATT10": 18.3,
+        "ATTCHANGE": 8.9,
+        "POP80": "108.582",
+        "POP10": "133.568",
+        "AREA10": 412.390382,
+        "SLUG": 30140
+    },
+    {
+        "NAME": "Anderson, IN ",
+        "ATT80": 10.4,
+        "ATT10": 16.6,
+        "ATTCHANGE": 6.2,
+        "POP80": "139.336",
+        "POP10": "131.636",
+        "AREA10": 409.396999,
+        "SLUG": 11300
+    },
+    {
+        "NAME": "Pittsfield, MA ",
+        "ATT80": 16.3,
+        "ATT10": 29.6,
+        "ATTCHANGE": 13.3,
+        "POP80": "145.110",
+        "POP10": "131.219",
+        "AREA10": 408.7480353,
+        "SLUG": 38340
+    },
+    {
+        "NAME": "Idaho Falls, ID ",
+        "ATT80": 19.2,
+        "ATT10": 24.6,
+        "ATTCHANGE": 5.4,
+        "POP80": "81.284",
+        "POP10": "130.374",
+        "AREA10": 407.4298195,
+        "SLUG": 26820
+    },
+    {
+        "NAME": "Farmington, NM ",
+        "ATT80": 11.4,
+        "ATT10": 15,
+        "ATTCHANGE": 3.6,
+        "POP80": "81.433",
+        "POP10": "130.044",
+        "AREA10": 406.9138538,
+        "SLUG": 22140
+    },
+    {
+        "NAME": "Morgantown, WV ",
+        "ATT80": 18.6,
+        "ATT10": 28.3,
+        "ATTCHANGE": 9.7,
+        "POP80": "105.484",
+        "POP10": "129.709",
+        "AREA10": 406.3894003,
+        "SLUG": 34060
+    },
+    {
+        "NAME": "Glens Falls, NY ",
+        "ATT80": 13.4,
+        "ATT10": 22.3,
+        "ATTCHANGE": 8.9,
+        "POP80": "109.649",
+        "POP10": "128.923",
+        "AREA10": 405.1562267,
+        "SLUG": 24020
+    },
+    {
+        "NAME": "Winchester, VA-WV ",
+        "ATT80": 11.2,
+        "ATT10": 21.7,
+        "ATTCHANGE": 10.5,
+        "POP80": "69.234",
+        "POP10": "128.472",
+        "AREA10": 404.4469446,
+        "SLUG": 49020
+    },
+    {
+        "NAME": "St. Joseph, MO-KS ",
+        "ATT80": 10.3,
+        "ATT10": 18.5,
+        "ATTCHANGE": 8.2,
+        "POP80": "119.358",
+        "POP10": "127.329",
+        "AREA10": 402.643767,
+        "SLUG": 41140
+    },
+    {
+        "NAME": "Altoona, PA ",
+        "ATT80": 8.1,
+        "ATT10": 17.2,
+        "ATTCHANGE": 9.1,
+        "POP80": "136.621",
+        "POP10": "127.089",
+        "AREA10": 402.2641202,
+        "SLUG": 11020
+    },
+    {
+        "NAME": "Manhattan, KS ",
+        "ATT80": 22.9,
+        "ATT10": 33.2,
+        "ATTCHANGE": 10.3,
+        "POP80": "108.139",
+        "POP10": "127.081",
+        "AREA10": 402.2514592,
+        "SLUG": 31740
+    },
+    {
+        "NAME": "Rapid City, SD ",
+        "ATT80": 17.7,
+        "ATT10": 26.4,
+        "ATTCHANGE": 8.7,
+        "POP80": "91.078",
+        "POP10": "126.382",
+        "AREA10": 401.1436559,
+        "SLUG": 39660
+    },
+    {
+        "NAME": "Bowling Green, KY ",
+        "ATT80": 15.1,
+        "ATT10": 25.3,
+        "ATTCHANGE": 10.2,
+        "POP80": "81.790",
+        "POP10": "125.953",
+        "AREA10": 400.462242,
+        "SLUG": 14540
+    },
+    {
+        "NAME": "Logan, UT-ID ",
+        "ATT80": 24.8,
+        "ATT10": 33.2,
+        "ATTCHANGE": 8.4,
+        "POP80": "66.071",
+        "POP10": "125.442",
+        "AREA10": 399.6490649,
+        "SLUG": 30860
+    },
+    {
+        "NAME": "Salisbury, MD ",
+        "ATT80": 12.9,
+        "ATT10": 22.5,
+        "ATTCHANGE": 9.6,
+        "POP80": "83.728",
+        "POP10": "125.203",
+        "AREA10": 399.2681651,
+        "SLUG": 41540
+    },
+    {
+        "NAME": "Mansfield, OH ",
+        "ATT80": 10.1,
+        "ATT10": 14.8,
+        "ATTCHANGE": 4.7,
+        "POP80": "131.205",
+        "POP10": "124.475",
+        "AREA10": 398.105689,
+        "SLUG": 31900
+    },
+    {
+        "NAME": "Steubenville-Weirton, OH-WV ",
+        "ATT80": 8,
+        "ATT10": 14.7,
+        "ATTCHANGE": 6.7,
+        "POP80": "163.099",
+        "POP10": "124.454",
+        "AREA10": 398.0721057,
+        "SLUG": 44600
+    },
+    {
+        "NAME": "Lawton, OK ",
+        "ATT80": 15.1,
+        "ATT10": 19.8,
+        "ATTCHANGE": 4.7,
+        "POP80": "112.456",
+        "POP10": "124.098",
+        "AREA10": 397.5023564,
+        "SLUG": 30020
+    },
+    {
+        "NAME": "Goldsboro, NC ",
+        "ATT80": 10.8,
+        "ATT10": 16.1,
+        "ATTCHANGE": 5.3,
+        "POP80": "97.054",
+        "POP10": "122.623",
+        "AREA10": 395.1329846,
+        "SLUG": 24140
+    },
+    {
+        "NAME": "Jonesboro, AR ",
+        "ATT80": 11.1,
+        "ATT10": 19.9,
+        "ATTCHANGE": 8.8,
+        "POP80": "90.271",
+        "POP10": "121.026",
+        "AREA10": 392.5515136,
+        "SLUG": 27860
+    },
+    {
+        "NAME": "Sherman-Denison, TX ",
+        "ATT80": 12.9,
+        "ATT10": 19.2,
+        "ATTCHANGE": 6.3,
+        "POP80": "89.796",
+        "POP10": "120.877",
+        "AREA10": 392.3097961,
+        "SLUG": 43300
+    },
+    {
+        "NAME": "Elizabethtown, KY ",
+        "ATT80": 10,
+        "ATT10": 17.7,
+        "ATTCHANGE": 7.7,
+        "POP80": "100.839",
+        "POP10": "119.736",
+        "AREA10": 390.4538318,
+        "SLUG": 21140
+    },
+    {
+        "NAME": "Anniston-Oxford, AL ",
+        "ATT80": 11,
+        "ATT10": 16.1,
+        "ATTCHANGE": 5.1,
+        "POP80": "119.761",
+        "POP10": "118.572",
+        "AREA10": 388.5513203,
+        "SLUG": 11500
+    },
+    {
+        "NAME": "Muncie, IN ",
+        "ATT80": 14.9,
+        "ATT10": 22.4,
+        "ATTCHANGE": 7.5,
+        "POP80": "128.587",
+        "POP10": "117.671",
+        "AREA10": 387.0722513,
+        "SLUG": 34620
+    },
+    {
+        "NAME": "Mount Vernon-Anacortes, WA ",
+        "ATT80": 13.2,
+        "ATT10": 23.2,
+        "ATTCHANGE": 10,
+        "POP80": "64.138",
+        "POP10": "116.901",
+        "AREA10": 385.8037365,
+        "SLUG": 34580
+    },
+    {
+        "NAME": "Williamsport, PA ",
+        "ATT80": 10.3,
+        "ATT10": 18.8,
+        "ATTCHANGE": 8.5,
+        "POP80": "118.416",
+        "POP10": "116.111",
+        "AREA10": 384.4979238,
+        "SLUG": 48700
+    },
+    {
+        "NAME": "Cleveland, TN ",
+        "ATT80": 9.7,
+        "ATT10": 17.8,
+        "ATTCHANGE": 8.1,
+        "POP80": "81.149",
+        "POP10": "115.788",
+        "AREA10": 383.9627492,
+        "SLUG": 17460
+    },
+    {
+        "NAME": "Sheboygan, WI ",
+        "ATT80": 11.2,
+        "ATT10": 20.5,
+        "ATTCHANGE": 9.3,
+        "POP80": "100.935",
+        "POP10": "115.507",
+        "AREA10": 383.4965563,
+        "SLUG": 43100
+    },
+    {
+        "NAME": "Jackson, TN ",
+        "ATT80": 12.1,
+        "ATT10": 22.9,
+        "ATTCHANGE": 10.8,
+        "POP80": "87.273",
+        "POP10": "115.425",
+        "AREA10": 383.3604075,
+        "SLUG": 27180
+    },
+    {
+        "NAME": "Victoria, TX ",
+        "ATT80": 11.4,
+        "ATT10": 16.6,
+        "ATTCHANGE": 5.2,
+        "POP80": "93.574",
+        "POP10": "115.384",
+        "AREA10": 383.2923149,
+        "SLUG": 47020
+    },
+    {
+        "NAME": "Owensboro, KY ",
+        "ATT80": 10.1,
+        "ATT10": 16.9,
+        "ATTCHANGE": 6.8,
+        "POP80": "103.781",
+        "POP10": "114.752",
+        "AREA10": 382.241158,
+        "SLUG": 36980
+    },
+    {
+        "NAME": "Kankakee-Bradley, IL ",
+        "ATT80": 10.6,
+        "ATT10": 17.4,
+        "ATTCHANGE": 6.8,
+        "POP80": "102.926",
+        "POP10": "113.449",
+        "AREA10": 380.064803,
+        "SLUG": 28100
+    },
+    {
+        "NAME": "Brunswick, GA ",
+        "ATT80": 12.8,
+        "ATT10": 21.6,
+        "ATTCHANGE": 8.8,
+        "POP80": "71.728",
+        "POP10": "112.370",
+        "AREA10": 378.2531094,
+        "SLUG": 15260
+    },
+    {
+        "NAME": "San Angelo, TX ",
+        "ATT80": 14.7,
+        "ATT10": 21.5,
+        "ATTCHANGE": 6.8,
+        "POP80": "86.170",
+        "POP10": "111.823",
+        "AREA10": 377.3313471,
+        "SLUG": 41660
+    },
+    {
+        "NAME": "Michigan City-La Porte, IN ",
+        "ATT80": 10.6,
+        "ATT10": 16.7,
+        "ATTCHANGE": 6.1,
+        "POP80": "108.632",
+        "POP10": "111.467",
+        "AREA10": 376.7302317,
+        "SLUG": 33140
+    },
+    {
+        "NAME": "Wenatchee-East Wenatchee, WA ",
+        "ATT80": 13.9,
+        "ATT10": 21.3,
+        "ATTCHANGE": 7.4,
+        "POP80": "67.205",
+        "POP10": "110.884",
+        "AREA10": 375.743744,
+        "SLUG": 48300
+    },
+    {
+        "NAME": "Lawrence, KS ",
+        "ATT80": 35.1,
+        "ATT10": 48.3,
+        "ATTCHANGE": 13.2,
+        "POP80": "67.640",
+        "POP10": "110.826",
+        "AREA10": 375.6454611,
+        "SLUG": 29940
+    },
+    {
+        "NAME": "Decatur, IL ",
+        "ATT80": 12.9,
+        "ATT10": 20.5,
+        "ATTCHANGE": 7.6,
+        "POP80": "131.375",
+        "POP10": "110.768",
+        "AREA10": 375.5471526,
+        "SLUG": 19500
+    },
+    {
+        "NAME": "Missoula, MT ",
+        "ATT80": 24,
+        "ATT10": 38.4,
+        "ATTCHANGE": 14.4,
+        "POP80": "76.016",
+        "POP10": "109.299",
+        "AREA10": 373.0485967,
+        "SLUG": 33540
+    },
+    {
+        "NAME": "Bismarck, ND ",
+        "ATT80": 18.9,
+        "ATT10": 29.8,
+        "ATTCHANGE": 10.9,
+        "POP80": "79.988",
+        "POP10": "108.779",
+        "AREA10": 372.1601322,
+        "SLUG": 13900
+    },
+    {
+        "NAME": "Bay City, MI ",
+        "ATT80": 8.9,
+        "ATT10": 18,
+        "ATTCHANGE": 9.1,
+        "POP80": "119.881",
+        "POP10": "107.771",
+        "AREA10": 370.4318092,
+        "SLUG": 13020
+    },
+    {
+        "NAME": "Lewiston-Auburn, ME ",
+        "ATT80": 10.5,
+        "ATT10": 18.4,
+        "ATTCHANGE": 7.9,
+        "POP80": "99.657",
+        "POP10": "107.702",
+        "AREA10": 370.3132063,
+        "SLUG": 30340
+    },
+    {
+        "NAME": "Sumter, SC ",
+        "ATT80": 11.5,
+        "ATT10": 17.4,
+        "ATTCHANGE": 5.9,
+        "POP80": "88.243",
+        "POP10": "107.456",
+        "AREA10": 369.8900521,
+        "SLUG": 44940
+    },
+    {
+        "NAME": "Lima, OH ",
+        "ATT80": 10,
+        "ATT10": 15.9,
+        "ATTCHANGE": 5.9,
+        "POP80": "112.241",
+        "POP10": "106.331",
+        "AREA10": 367.9486937,
+        "SLUG": 30620
+    },
+    {
+        "NAME": "Gadsden, AL ",
+        "ATT80": 8.9,
+        "ATT10": 15.8,
+        "ATTCHANGE": 6.9,
+        "POP80": "103.057",
+        "POP10": "104.430",
+        "AREA10": 364.6447418,
+        "SLUG": 23460
+    },
+    {
+        "NAME": "Cumberland, MD-WV ",
+        "ATT80": 8.7,
+        "ATT10": 15.1,
+        "ATTCHANGE": 6.4,
+        "POP80": "107.782",
+        "POP10": "103.299",
+        "AREA10": 362.6647747,
+        "SLUG": 19060
+    },
+    {
+        "NAME": "Longview, WA ",
+        "ATT80": 11,
+        "ATT10": 14.6,
+        "ATTCHANGE": 3.6,
+        "POP80": "79.548",
+        "POP10": "102.410",
+        "AREA10": 361.1008406,
+        "SLUG": 31020
+    },
+    {
+        "NAME": "Fond du Lac, WI ",
+        "ATT80": 11.3,
+        "ATT10": 18,
+        "ATTCHANGE": 6.7,
+        "POP80": "88.964",
+        "POP10": "101.633",
+        "AREA10": 359.7283693,
+        "SLUG": 22540
+    },
+    {
+        "NAME": "Ithaca, NY ",
+        "ATT80": 36.3,
+        "ATT10": 49.8,
+        "ATTCHANGE": 13.5,
+        "POP80": "87.085",
+        "POP10": "101.564",
+        "AREA10": 359.6062364,
+        "SLUG": 27060
+    },
+    {
+        "NAME": "Pine Bluff, AR ",
+        "ATT80": 10.7,
+        "ATT10": 15.2,
+        "ATTCHANGE": 4.5,
+        "POP80": "111.955",
+        "POP10": "100.258",
+        "AREA10": 357.2866876,
+        "SLUG": 38220
+    },
+    {
+        "NAME": "Kokomo, IN ",
+        "ATT80": 10.5,
+        "ATT10": 18.6,
+        "ATTCHANGE": 8.1,
+        "POP80": "103.715",
+        "POP10": "98.688",
+        "AREA10": 354.4781661,
+        "SLUG": 29020
+    },
+    {
+        "NAME": "Grand Forks, ND-MN ",
+        "ATT80": 18.4,
+        "ATT10": 28.8,
+        "ATTCHANGE": 10.4,
+        "POP80": "100.944",
+        "POP10": "98.461",
+        "AREA10": 354.0702499,
+        "SLUG": 24220
+    },
+    {
+        "NAME": "Fairbanks, AK ",
+        "ATT80": 22,
+        "ATT10": 27.1,
+        "ATTCHANGE": 5.1,
+        "POP80": "53.983",
+        "POP10": "97.581",
+        "AREA10": 352.4844385,
+        "SLUG": 21820
+    },
+    {
+        "NAME": "Ocean City, NJ ",
+        "ATT80": 13,
+        "ATT10": 26.3,
+        "ATTCHANGE": 13.3,
+        "POP80": "82.266",
+        "POP10": "97.265",
+        "AREA10": 351.9132443,
+        "SLUG": 36140
+    },
+    {
+        "NAME": "Mankato-North Mankato, MN ",
+        "ATT80": 18.5,
+        "ATT10": 31.3,
+        "ATTCHANGE": 12.8,
+        "POP80": "79.243",
+        "POP10": "96.740",
+        "AREA10": 350.9622114,
+        "SLUG": 31860
+    },
+    {
+        "NAME": "Rome, GA ",
+        "ATT80": 11.8,
+        "ATT10": 17.9,
+        "ATTCHANGE": 6.1,
+        "POP80": "79.800",
+        "POP10": "96.317",
+        "AREA10": 350.1940718,
+        "SLUG": 40660
+    },
+    {
+        "NAME": "Hot Springs, AR ",
+        "ATT80": 11.3,
+        "ATT10": 20.2,
+        "ATTCHANGE": 8.9,
+        "POP80": "70.531",
+        "POP10": "96.024",
+        "AREA10": 349.6610142,
+        "SLUG": 26300
+    },
+    {
+        "NAME": "Palm Coast, FL ",
+        "ATT80": 13.7,
+        "ATT10": 22,
+        "ATTCHANGE": 8.3,
+        "POP80": "10.913",
+        "POP10": "95.696",
+        "AREA10": 349.0633151,
+        "SLUG": 37380
+    },
+    {
+        "NAME": "Dubuque, IA ",
+        "ATT80": 15,
+        "ATT10": 25.3,
+        "ATTCHANGE": 10.3,
+        "POP80": "93.745",
+        "POP10": "93.653",
+        "AREA10": 345.3171622,
+        "SLUG": 20220
+    },
+    {
+        "NAME": "Cheyenne, WY ",
+        "ATT80": 17.7,
+        "ATT10": 22.9,
+        "ATTCHANGE": 5.2,
+        "POP80": "68.649",
+        "POP10": "91.738",
+        "AREA10": 341.7684354,
+        "SLUG": 16940
+    },
+    {
+        "NAME": "Pocatello, ID ",
+        "ATT80": 17.7,
+        "ATT10": 26.6,
+        "ATTCHANGE": 8.9,
+        "POP80": "72.265",
+        "POP10": "90.656",
+        "AREA10": 339.7469704,
+        "SLUG": 38540
+    },
+    {
+        "NAME": "Ames, IA ",
+        "ATT80": 33.9,
+        "ATT10": 47.2,
+        "ATTCHANGE": 13.3,
+        "POP80": "72.326",
+        "POP10": "89.542",
+        "AREA10": 337.6530769,
+        "SLUG": 11180
+    },
+    {
+        "NAME": "Elmira, NY ",
+        "ATT80": 13.3,
+        "ATT10": 20.9,
+        "ATTCHANGE": 7.6,
+        "POP80": "97.656",
+        "POP10": "88.830",
+        "AREA10": 336.3079606,
+        "SLUG": 21340
+    },
+    {
+        "NAME": "Corvallis, OR ",
+        "ATT80": 36.6,
+        "ATT10": 47.9,
+        "ATTCHANGE": 11.3,
+        "POP80": "68.211",
+        "POP10": "85.579",
+        "AREA10": 330.0965004,
+        "SLUG": 18700
+    },
+    {
+        "NAME": "Danville, IL ",
+        "ATT80": 9.7,
+        "ATT10": 13.7,
+        "ATTCHANGE": 4,
+        "POP80": "95.222",
+        "POP10": "81.625",
+        "AREA10": 322.3806106,
+        "SLUG": 19180
+    },
+    {
+        "NAME": "Great Falls, MT ",
+        "ATT80": 17.4,
+        "ATT10": 23.9,
+        "ATTCHANGE": 6.5,
+        "POP80": "80.696",
+        "POP10": "81.327",
+        "AREA10": 321.7915921,
+        "SLUG": 24500
+    },
+    {
+        "NAME": "Hinesville-Fort Stewart, GA ",
+        "ATT80": 11.5,
+        "ATT10": 15.1,
+        "ATTCHANGE": 3.6,
+        "POP80": "42.107",
+        "POP10": "77.917",
+        "AREA10": 314.9730731,
+        "SLUG": 25980
+    },
+    {
+        "NAME": "Sandusky, OH ",
+        "ATT80": 11.4,
+        "ATT10": 20.1,
+        "ATTCHANGE": 8.7,
+        "POP80": "79.655",
+        "POP10": "77.079",
+        "AREA10": 313.2747212,
+        "SLUG": 41780
+    },
+    {
+        "NAME": "Columbus, IN ",
+        "ATT80": 14.8,
+        "ATT10": 26.7,
+        "ATTCHANGE": 11.9,
+        "POP80": "65.088",
+        "POP10": "76.794",
+        "AREA10": 312.6950174,
+        "SLUG": 18020
+    },
+    {
+        "NAME": "Casper, WY ",
+        "ATT80": 19.7,
+        "ATT10": 21,
+        "ATTCHANGE": 1.3,
+        "POP80": "71.856",
+        "POP10": "75.450",
+        "AREA10": 309.9466441,
+        "SLUG": 16220
+    },
+    {
+        "NAME": "Lewiston, ID-WA ",
+        "ATT80": 12.7,
+        "ATT10": 18.1,
+        "ATTCHANGE": 5.4,
+        "POP80": "50.043",
+        "POP10": "60.888",
+        "AREA10": 278.4345797,
+        "SLUG": 30300
+    },
+    {
+        "NAME": "Carson City, NV ",
+        "ATT80": 15.8,
+        "ATT10": 21.6,
+        "ATTCHANGE": 5.8,
+        "POP80": "32.022",
+        "POP10": "55.274",
+        "AREA10": 265.2880964,
+        "SLUG": 16180
+    }
+]
