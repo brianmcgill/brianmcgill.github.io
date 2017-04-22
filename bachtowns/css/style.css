@@ -201,6 +201,8 @@ a:hover, footer a:hover {  color: #ED1C24; }
     margin-right: 12px;
   }
 
+  .c740 { display: none; }
+
 @media only screen and (max-width: 1120px) { 
 
   h1 {font-size: 55px;}
@@ -208,8 +210,15 @@ a:hover, footer a:hover {  color: #ED1C24; }
 
 }
 
+@media only screen and (max-width: 790px) { 
 
-@media only screen and (max-width: 720px) {
+  .c740 { display: inline-block; }
+  .c990 { display: none; }
+  .art-container { width: 790px; }
+
+}
+
+@media only screen and (max-width: 740px) {
 
   h1 { font-size: 35px; }
   .article-body p { font-size: 15px; }
@@ -224,7 +233,6 @@ a:hover, footer a:hover {  color: #ED1C24; }
 
   .socialBox { display: none; }
   .clock { width: 17px; }
-
 
 }
 
