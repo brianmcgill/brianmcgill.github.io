@@ -25,13 +25,13 @@
 
 
             #container {
-                height: 600px;
-                width: 740px;
+                height: 570px;
+                width: 1000px;
             }
 
             #textAll{
                 position: absolute;
-                width: 740px;
+                width: 990px;
                 height: 600px;
                 top: 0px;
                 left: 0px;
@@ -49,7 +49,7 @@
 
             .keyText{
                 top: 56px;
-                left: 470px;
+                left: 700px;
                 height:10px;
             }
 
@@ -72,12 +72,12 @@
 
             .yText{
                 top: 532px;
-                left: 305px;
+                left: 532px;
             }
 
             .combobox-container {
                 position: absolute;
-                left:470px; 
+                left:700px; 
                 top:20px;
             }
 
@@ -141,16 +141,16 @@
             }
 
             .midland { left:75px; top:257px; width: 260px; }
-            .boulder { left:490px; top:100px; width: 190px; text-align: right;}
-            .raleighSJ { left:505px; top:415px; width: 190px; text-align: right; z-index:2; padding: 5px;}
-            .college { left:100px; top:157px; width: 250px; text-align: right; }
+            .boulder { left:730px; top:100px; width: 190px; text-align: right;}
+            .raleighSJ { left:755px; top:415px; width: 190px; text-align: right; z-index:2; padding: 5px;}
+            .college { left:220px; top:157px; width: 250px; text-align: right; }
 
-            .midlandLine { border-right: 1px solid black; border-bottom: 1px solid black; position: absolute; left:65px; top:327px; height: 79px; width: 20px; z-index:-1;}
-            .collegeLine { border: 1px solid black; position: absolute; left:385px; top:158px; height: 125px; width: 157px; z-index:-1;}
-            .collegeLineb { border-top: 1px solid black; position: absolute; left:360px; top:170px; height: 2px; width: 4px; z-index:-1;}
-            .boulderLine { border-top: 1px solid black; position: absolute; left:690px; top:116px; height: 2px; width: 14px; z-index:-1;}
-            .raleighLine { border-left: 1px solid black; position: absolute; left:696px; top:267px; height: 140px; width: 2px; z-index:-11;}
-            .sanjoseLine { border-left: 1px solid black; border-bottom: 1px solid black; position: absolute; left:653px; top:240px; height: 40px; width: 32px; z-index:-1;}
+            .midlandLine { border-right: 1px solid black; border-bottom: 1px solid black; position: absolute; left:68px; top:327px; height: 79px; width: 20px; z-index:-1;}
+            .collegeLine { border: 1px solid black; position: absolute; left:495px; top:158px; height: 125px; width: 227px; z-index:-1;}
+            .collegeLineb { border-top: 1px solid black; position: absolute; left:482px; top:170px; height: 2px; width: 4px; z-index:-1;}
+            .boulderLine { border-top: 1px solid black; position: absolute; left:930px; top:116px; height: 2px; width: 14px; z-index:-1;}
+            .raleighLine { border-left: 1px solid black; position: absolute; left:924px; top:267px; height: 140px; width: 2px; z-index:-11;}
+            .sanjoseLine { border-left: 1px solid black; border-bottom: 1px solid black; position: absolute; left:866px; top:240px; height: 40px; width: 47px; z-index:-1;}
 
         </style>
     </head>
@@ -554,7 +554,6 @@
           <div class="chartText xText">Share of the population with a bachelor's degree or higher</div>
           <div class="chartText yText">Change in share of the population with a bachelor's degree or higher, 1980-2010</div>
           <div class="chartText keyText"><img src="http://assets.nationaljournal.com/gfx/bacity/circle.png" height="10" width="10"> Circle size equal to population of metro area.</div>
-          <div class="chartText srcText">Source: Brookings Institution analysis of Census Bureau data</div>
         </div>  
 
         <script type="text/javascript">
@@ -562,7 +561,7 @@
 $(document).ready(function(){
 
 var h = 530;
-var w = 720;
+var w = 950;
 var padding = 30;
 var URLjson = "bachtowns.json";
 
@@ -579,7 +578,7 @@ function zIndex(evt) {
             //Scaling: domain = data, range = svg area
             var xScale = d3.scale.linear()
                            .domain([-1, 20])
-                           .range([0, w-padding]);
+                           .range([padding, w-padding]);
            
             var yScale = d3.scale.linear()
                              .domain([8, 60])
