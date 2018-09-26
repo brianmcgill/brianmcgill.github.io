@@ -1,0 +1,85 @@
+text { font-family: Montserrat !important; }
+
+.btnz { 
+  font-family: Montserrat !important; 
+  text-transform: uppercase;
+  color: white !important;
+  background-image: black !important;
+  border-radius: 0px !important;
+}
+
+.hed { 
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #222;
+}
+
+.axis path { stroke: none; }
+.y line {
+  fill: none;
+  stroke: none;
+  shape-rendering: crispEdges;
+}
+
+.y text { transform: translateY(-1.8em); }
+.x line {
+  fill: none;
+  stroke: #999;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  //stroke: null;
+  opacity: 0.1;
+}
+
+.avgz {
+  height: 20px;
+  width: 4px;
+  stroke: #fff;
+  stroke-width:0.5px;
+  fill: #555;
+}
+
+.combobox {
+  font-family: Montserrat !important;
+}
+
+#chart {
+  width: 100%;
+  height: 700px;
+  min-width: 300px;
+  min-height: 300px;
+  position: relative;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-family: Montserrat;
+  font: 12px;
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.8);
+  color: rgb(185, 185, 185);
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}

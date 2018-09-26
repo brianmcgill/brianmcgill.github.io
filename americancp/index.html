@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="libs/bootstrap.css" media="screen" rel="stylesheet" type="text/css">
+<link href="libs/bootstrap-combobox.css" media="screen" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lora:100,400 " rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400 " rel="stylesheet">
+<link href="main.css" rel="stylesheet">
+
+<body>
+
+  <div class="dropdown">
+    <button class="btnz btn-warning dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Select a category
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li id="uninsured-btn" role="presentation"><a role="menuitem">Uninsured Rate</a></li>
+      <li id="obesity-btn" role="presentation"><a role="menuitem" >Obesity Rate</a></li>
+      <li id="death-btn" role="presentation"><a role="menuitem" >Premature Death Rate</a></li>
+      <li id="childpoverty-btn" role="presentation"><a role="menuitem" >Child Poverty</a></li>
+      <li id="longcommute-btn" role="presentation"><a role="menuitem">Long Commutes</a></li>
+      <li id="college-btn" role="presentation"><a role="menuitem" >Some College</a></li>
+      <li id="income-btn" role="presentation"><a role="menuitem" >Median Household Income</a></li>
+      <li id="nhwhite-btn" role="presentation"><a role="menuitem" >Pct. Non-Hisp. White</a></li>
+      <li id="mental-btn" role="presentation"><a role="menuitem" >Frequent Mental Distress</a></li>
+      <li id="healthfood-btn" role="presentation"><a role="menuitem" >Limited Healthy Foods</a></li>
+      <li id="foodinsecure-btn" role="presentation"><a role="menuitem" >Food Insecurities</a></li>
+      <li id="singleparent-btn" role="presentation"><a role="menuitem" >Single-parent Home</a></li>
+    </ul>
+  </div>
+
+ <h3 class="hed">Uninsured Rate</h3> 
+
+ <select class="combobox" id="combobox">
+    <option value="">FIND A COUNTY</option>
+</select>
+
+<svg id="chart"></svg>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="libs/bootstrap.js"></script>
+<script src="libs/bootstrap-combobox.js" type="text/javascript"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="libs/d3-tip.js"></script>
+<script src="main.js"></script>
