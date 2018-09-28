@@ -3,7 +3,7 @@ function bringToFront(evt) {
     element.parentNode.appendChild(element); //appendChild after the last child
 }  
 
-var margin = {top: 20, right: 30, bottom: 40, left: 130},
+var margin = {top: 20, right: 30, bottom: 40, left: 150},
     dim = Math.min(parseInt(d3.select("#chart").style("width")), parseInt(d3.select("#chart").style("height"))),
     width = dim - margin.left - margin.right,
     height = 550 - margin.top - margin.bottom;
@@ -176,16 +176,16 @@ d3.csv("data/acpdata.csv", function(error, data) {
   //call buttons
   btnTrans("Uninsured Rate", "uninsured");
   btnTrans("Obesity Rate","obesity");
-  btnTrans("Premature Deaths, pct","death");
-  btnTrans("Children in Poverty, pct.","childpoverty");
-  btnTrans("Commute Over 30 Minutes, pct.","longcommute");
-  btnTrans("Children in Single-Parent Homes, pct","singleparent");
+  btnTrans("Premature Deaths %","death");
+  btnTrans("Children in Poverty %.","childpoverty");
+  btnTrans("Commute Over 30 Minutes %.","longcommute");
+  btnTrans("Children in Single-Parent Homes %","singleparent");
   btnTrans("Median Household Income ($1,000)","income");
-  btnTrans("People with Some College, pct.","college");
-  btnTrans("Non-Hispanic White pct.","nhwhite");
-  btnTrans("Has Frequent Mental Distress, pct","mental");
-  btnTrans("Food Insecurity, pct.","foodinsecure");
-  btnTrans("Limited Access to Healthy Food, pct.","healthfood");
+  btnTrans("People with Some College %","college");
+  btnTrans("Non-Hispanic White %","nhwhite");
+  btnTrans("Has Frequent Mental Distress %","mental");
+  btnTrans("Food Insecurity %","foodinsecure");
+  btnTrans("Limited Access to Healthy Food %","healthfood");
 
   //search
   $('.combobox').combobox()
