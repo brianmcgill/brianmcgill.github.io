@@ -212,15 +212,18 @@ d3.csv("data/acpdata.csv", function(error, data) {
   d3.select('.combobox-clear').on('click', removeCircStyle)
 
 })
-});
 
-function resize() {
+
+function resize(cat) {
 
   var dim = Math.min(parseInt(d3.select("#chart").style("width"))),
   width = dim - margin.left - margin.right,
   height = 550 - margin.top - margin.bottom;
 
   console.log(dim);
+
+  x.domain([0, d3.max(data, function(d) { return d.uninsured; })]);
+ 
 
   // Update the range of the scale with new width/height
   x.range([0, width]);
@@ -259,3 +262,5 @@ function resize() {
 d3.select(window).on('resize', resize);
 
 resize();
+
+});
