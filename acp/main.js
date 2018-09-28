@@ -69,7 +69,7 @@ d3.csv("data/acpdata.csv", function(error, data) {
   d3.csv("data/acpaverage.csv", function(error, avg) {
 
     avg.forEach(function(d) {
-      d.type = +d.type;
+      d.type = +d.type
       d.typename = d.typename
       d.obesity = +d.obesity
       d.uninsured = +d.uninsured
@@ -130,6 +130,8 @@ d3.csv("data/acpdata.csv", function(error, data) {
       rect.attr('class', 'avgz')
       .attr('x', function(d) { return x(d.uninsured)-1; })
       .attr('y', function(d) { return y(d.typename)-10; })
+      .attr('height', '20px')
+      .attr('width', '4px')
 
   //button transitions
   function btnTrans(hed, cat) {
@@ -177,13 +179,13 @@ d3.csv("data/acpdata.csv", function(error, data) {
   btnTrans("Premature Deaths, pct","death");
   btnTrans("Children in Poverty, pct.","childpoverty");
   btnTrans("Commute Over 30 Minutes, pct.","longcommute");
-  btnTrans("Children in Single Parent Homes, pct","singleparent");
+  btnTrans("Children in Single-Parent Homes, pct","singleparent");
   btnTrans("Median Household Income ($1,000)","income");
   btnTrans("People with Some College, pct.","college");
   btnTrans("Non-Hispanic White pct.","nhwhite");
   btnTrans("Has Frequent Mental Distress, pct","mental");
   btnTrans("Food Insecurity, pct.","foodinsecure");
-  btnTrans("Limit Access to Healthy Food, pct.","healthfood");
+  btnTrans("Limited Access to Healthy Food, pct.","healthfood");
 
   //search
   $('.combobox').combobox()
