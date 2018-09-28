@@ -22,7 +22,7 @@ text { font-family: Montserrat !important; }
   shape-rendering: crispEdges;
 }
 
-.y text { transform: translateY(-1.8em)}
+.y text { transform: translateY(-1.2em)}
 .x line {
   fill: none;
   stroke: #999;
@@ -31,10 +31,8 @@ text { font-family: Montserrat !important; }
 
 .dot {
   //stroke: null;
-  opacity: 0.1;
+  opacity: 0.2;
 }
-
-#chart text {font-size: 16px;}
 
 .avgz {
   height: 20px;
@@ -55,6 +53,8 @@ text { font-family: Montserrat !important; }
   min-height: 300px;
   position: relative;
 }
+
+#chart text {font-size: 13px;}
 
 .d3-tip {
   line-height: 1;

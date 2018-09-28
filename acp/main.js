@@ -3,7 +3,7 @@ function bringToFront(evt) {
     element.parentNode.appendChild(element); //appendChild after the last child
 }  
 
-var margin = {top: 20, right: 30, bottom: 40, left: 150},
+var margin = {top: 20, right: 30, bottom: 40, left: 165},
     dim = Math.min(parseInt(d3.select("#chart").style("width")), parseInt(d3.select("#chart").style("height"))),
     width = dim - margin.left - margin.right,
     height = 550 - margin.top - margin.bottom;
@@ -17,7 +17,7 @@ var y = d3.scaleBand().rangeRound([height, 0]);
 var color = d3.scaleOrdinal()
       .range(['#699246','#C43B82','#7A3842','#3A2C70','#C44244','#3A9C9B','#EACD3F','#1F8FBA','#F08031','#ABBF48','#86563E','#82477F','#457A59','#2E547A','#FCB93A']);
 
-var xAxis = d3.axisBottom(x)//.tickFormat(d3.format(".0%"));
+var xAxis = d3.axisBottom(x)//.tickFormat(function(d) { return d3.format(",.0f")(d) + "%"; });
 
 var yAxis = d3.axisLeft(y);
 
@@ -141,7 +141,16 @@ d3.csv("data/acpdata.csv", function(error, data) {
       d3.select(".hed").text(hed)
 
       x.domain([d3.min(data, function(d) { return d[cat]; }), d3.max(data, function(d) { return d[cat]; })]); 
-      xAxis = d3.axisBottom(x)//.tickFormat(d3.format(".0%")); 
+      xAxis = d3.axisBottom(x)
+
+      /*xAxis = d3.axisBottom(x).tickFormat( 
+        function(d) { 
+          if (cat == 'income') { 
+             return "$" + d3.format(",.0f")(d) + 'k';  
+          } else { 
+            return d3.format(",.0f")(d) + "%"; 
+          } 
+        });  */
 
       const delay = function(d, i) { return i * 0.2; };
       const duration = 1300;
@@ -169,7 +178,7 @@ d3.csv("data/acpdata.csv", function(error, data) {
         "<span style='font-size:12px; line-height:1.4;'>" + hed + ': ' + pctDecimal(d[cat]) + '</span>' ;
       })
 
-
+      
     });   
   };
 
