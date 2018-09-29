@@ -1,4 +1,4 @@
-text { font-family: Montserrat !important; }
+body { font-family: Montserrat !important; }
 
 .btnz { 
   font-family: Montserrat !important; 
@@ -31,7 +31,7 @@ text { font-family: Montserrat !important; }
 
 .dot {
   //stroke: null;
-  opacity: 0.2;
+  opacity: 0.15;
 }
 
 .avgz {
@@ -44,6 +44,16 @@ text { font-family: Montserrat !important; }
 
 .combobox {
   font-family: Montserrat !important;
+}
+
+.median { 
+  position: relative;
+  float: left;
+  display: block; 
+  height: 20px; 
+  width: 4px; 
+  background-color: #444;
+  margin-right: 5px;
 }
 
 #chart {
