@@ -1,4 +1,4 @@
-body { font-family: Montserrat !important; }
+text { font-family: Montserrat !important; }
 
 .btnz { 
   font-family: Montserrat !important; 
@@ -46,11 +46,15 @@ body { font-family: Montserrat !important; }
   font-family: Montserrat !important;
 }
 
-.median { 
+.key {
   position: relative;
   float: left;
+}
+
+.median { 
+  float: left;
   display: block; 
-  height: 20px; 
+  height: 18px; 
   width: 4px; 
   background-color: #444;
   margin-right: 5px;
