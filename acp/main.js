@@ -46,7 +46,7 @@ var tip = d3.tip()
     .offset([-10, 0])
     .html(function(d) {
         return "<div><strong style='color: #fff; line-height:1.4;'>" + d.countyname + ", " + d.state + "</strong></div>" + 
-        "<span style='font-size:12px; line-height:1.4;'>" + 'Uninsured Rate: ' + pctDecimal(d.uninsured) + '</span>' ;
+        "<span style='font-size:12px; line-height:1.4;'>" + 'Uninsured Rate: ' + pctDecimal(d.uninsured) + '%</span>' ;
       })
 
 svg.call(tip);
@@ -153,6 +153,8 @@ d3.csv("data/acpdata.csv", function(error, data) {
       xAxis = d3.axisBottom(x).ticks(5).tickFormat(function(d, i) {
         if(i == 0 && cat == 'income') {
             return '$' + d + 'k';
+        } else if (i == 0 && cat == 'death') {
+            return d + 'k';
         } else if (i == 0) {
             return d + '%';
         }
@@ -184,6 +186,9 @@ d3.csv("data/acpdata.csv", function(error, data) {
         if (cat == 'income') { 
            return "<div><strong style='color: #fff; line-height:1.4;'>" + d.countyname + ", " + d.state + "</strong></div>" + 
           "<span style='font-size:12px; line-height:1.4;'>" + 'Median HH Income: $' + addCommas(d.income*1000) + '</span>' ;
+        } else if (cat == 'death') {
+          return "<div><strong style='color: #fff; line-height:1.4;'>" + d.countyname + ", " + d.state + "</strong></div>" + 
+          "<span style='font-size:12px; line-height:1.4;'>" +  'Premature Deaths: ' + addCommas(pctDecimal(d.death*1000)) + ' per 100k people</span>' ;
         } else {
           return "<div><strong style='color: #fff; line-height:1.4;'>" + d.countyname + ", " + d.state + "</strong></div>" + 
           "<span style='font-size:12px; line-height:1.4;'>" + hed + ': ' + pctDecimal(d[cat]) + '%</span>' ;
@@ -197,7 +202,7 @@ d3.csv("data/acpdata.csv", function(error, data) {
   //call buttons
   btnTrans("Uninsured Rate", "uninsured");
   btnTrans("Obesity Rate","obesity");
-  btnTrans("Premature Deaths","death");
+  btnTrans("Premature Deaths per 100k People","death");
   btnTrans("Children in Poverty","childpoverty");
   btnTrans("Commute Over 30 Minutes","longcommute");
   btnTrans("Children in Single-Parent Homes","singleparent");
