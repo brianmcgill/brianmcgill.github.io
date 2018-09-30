@@ -240,7 +240,7 @@ d3.csv("data/acpdata.csv", function(error, data) {
 })
 
 
-function resize(cat) {
+function resize() {
 
   var dim = Math.min(parseInt(d3.select("#chart").style("width"))),
   width = dim - margin.left - margin.right,
@@ -285,8 +285,7 @@ function resize(cat) {
     .attr("y", function(d) { return y(d.typename)-10; })
 }
 
-d3.select(window).on('resize', resize);
-
-resize();
+//d3.select(window).on('resize', resize);
+//resize();
 
 });
