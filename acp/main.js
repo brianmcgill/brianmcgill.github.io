@@ -188,7 +188,7 @@ d3.csv("data/acpdata.csv", function(error, data) {
           "<span style='font-size:12px; line-height:1.4;'>" + 'Median HH Income: $' + addCommas(d.income*1000) + '</span>' ;
         } else if (cat == 'death') {
           return "<div><strong style='color: #fff; line-height:1.4;'>" + d.countyname + ", " + d.state + "</strong></div>" + 
-          "<span style='font-size:12px; line-height:1.4;'>" +  'Premature Deaths: ' + addCommas(pctDecimal(d.death*1000)) + ' per 100k people</span>' ;
+          "<span style='font-size:12px; line-height:1.4;'>"  + addCommas(pctDecimal(d.death*1000)) + ' years of potential life lost per 100k people</span>' ;
         } else {
           return "<div><strong style='color: #fff; line-height:1.4;'>" + d.countyname + ", " + d.state + "</strong></div>" + 
           "<span style='font-size:12px; line-height:1.4;'>" + hed + ': ' + pctDecimal(d[cat]) + '%</span>' ;
