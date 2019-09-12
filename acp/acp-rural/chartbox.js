@@ -2,7 +2,7 @@
 
 var dimB = parseInt(d3.select(".barbox").style("width")),
 	widthB = dimB - margin.left - margin.right,
-    heightB = 40;
+    heightB = 30;
 
 // set the ranges
 var x = d3.scaleLinear().rangeRound([0, widthB]);
@@ -12,6 +12,9 @@ var y = d3.scaleLinear().range([heightB, 0]);
 d3.csv("data/acprural.csv", function(error, data) {
   if (error) throw error;
 
+  d3.csv("data/acpavg.csv", function(error, avg) {
+
+    
 
 function scatter(namez) {
   xAxis =  d3.axisBottom(x)
@@ -37,6 +40,11 @@ function scatter(namez) {
       d[namez] = +d[namez];
   });
 
+  avg.forEach(function(d) {
+      d[namez] = +d[namez];
+    });
+
+
   var svg = d3.select(".chart-" + namez).append("svg")
     .attr("width", widthB + margin.left + margin.right)
     .attr("height", heightB + margin.top + margin.bottom)
@@ -56,7 +64,6 @@ function scatter(namez) {
     .attr('class', 'ctyRect')
     .attr("fip", function(d) { return d.id; })
     .attr('ctyType', function(d) {return d.type })
-    .attr("r", 5)
     .attr("x", function(d) { return x(d[namez]); })
     .attr("y", 0)
     .attr('height', '20px')
@@ -64,10 +71,40 @@ function scatter(namez) {
     .style("fill", '#ccc') //function(d) { return d.color }
     .style('opacity', 0.2)
 
+  svg.selectAll('.rectAvg')
+    .data(avg)
+    .enter()
+    .append("rect")
+    .attr('class', 'avgbars')
+    .attr("x", function(d) { return x(d[namez]); })
+    .attr("y", 0)
+    .attr('height', '20px')
+    .attr('width', '3px')
+    .style('fill', 'black')
+
+  svg.selectAll('text')
+    .data(data)
+    .enter()
+    .append('text')
+    .attr('class', 'thisbartext')
+    .attr("fip", function(d) { return d.id; })
+    .style('visibility', 'hidden')
+    .text( function(d) {  
+        if(namez == 'popCng' || namez == 'miles') { 
+          return addCommas(d[namez]*1000)
+        } else if (namez == 'hhIncome' || namez == 'medHome') { 
+          return '$' + addCommas(d[namez]*1000)
+        } else {
+          return pctDecimal(d[namez]) + '%'
+        }
+      }) 
+    .attr("x", function(d) { return x(d[namez])+6; })
+    .attr("y", 15)
+
   // Add the X Axis
   svg.append("g")
-    .attr("transform", "translate(0,30)")
-    .call(xAxis).select(".domain").remove();
+    .attr("transform", "translate(0,22)")
+    .call(xAxis).select(".domain").remove(); //domain remove reomoves the horizontal bar
 
  };
 
@@ -78,7 +115,9 @@ function scatter(namez) {
  scatter('uninsured');
  scatter('hhIncome');
  scatter('miles');
- scatter('houseBuilt');
+ //scatter('houseBuilt');
  scatter('medHome');
+
+})
 
 });

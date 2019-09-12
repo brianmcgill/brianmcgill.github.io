@@ -3,6 +3,15 @@ function bringToFront(evt) {
   element.parentNode.appendChild(element); //appendChild after the last child
 }  
 
+function pctDecimal(num) {
+  return Math.round(num *10)/10 //+"%"
+}
+
+const addCommas = (x) => {
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+
 var margin = {top: 10, right: 10, bottom: 10, left: 10},
     dim = parseInt(d3.select("#chart").style("width")),
     width = dim - margin.left - margin.right,
@@ -180,12 +189,15 @@ function ready(error, us, rural) {
       .style('stroke-width', 0)
       .style('opacity', 0.2) ;
 
+    d3.selectAll('.thisbartext')
+        .style('visibility', 'hidden')
+
     d3.selectAll('.ctyRect[ctyType="' + this.getAttribute('ctyType') + '"]')
         .style('visibility', 'visible')
         .style('fill', function(d) { return '#'+ colorId[d.id]})
         .attr('opacity', 0.2) 
 
-     d3.selectAll('.ctyRect[fip="' + this.getAttribute('fip') + '"]')
+    d3.selectAll('.ctyRect[fip="' + this.getAttribute('fip') + '"]')
         .style('visibility', 'visible')
         .style('fill', 'red')
         .style('stroke', 'red')
@@ -196,7 +208,10 @@ function ready(error, us, rural) {
                      bringToFront(evt);
                   });;
 
-      d3.select('.cty-big')
+    d3.selectAll('.thisbartext[fip="' + this.getAttribute('fip') + '"]')
+        .style('visibility', 'visible')
+
+    d3.select('.cty-big')
         .html( function() {  
               if (countynameId[d.id] === undefined) 
                   { return "" }
@@ -227,6 +242,9 @@ function ready(error, us, rural) {
       .style('stroke-width', 0)
       .style('opacity', 0.2);
 
+    d3.selectAll('.thisbartext')
+        .style('visibility', 'hidden')
+
     d3.select('.cty-big').html('')
     
   };
@@ -242,6 +260,9 @@ function ready(error, us, rural) {
     d3.selectAll('.ctyPath[fip="' + ctyFip + '"]')
         .classed("selected", true)
         .attr('opacity', 1 )
+
+    d3.selectAll('.thisbartext')
+        .style('visibility', 'hidden')
 
 
     d3.selectAll('.ctyPath[ctyType="' + ctyType + '"]')
@@ -267,6 +288,9 @@ function ready(error, us, rural) {
                      var evt = { target: this};
                      bringToFront(evt);
                   });;
+
+    d3.selectAll('.thisbartext[fip="' + ctyFip + '"]')
+        .style('visibility', 'visible')
 
     d3.select('.cty-big').html("<span class='cty-hed'>" + ctyName + ', ' + stName + 
                            "</span><span class='cty-cat'>" + typeName + "</span>" )
