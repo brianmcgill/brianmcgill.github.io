@@ -57,6 +57,7 @@ function scatter(namez) {
 
   //console.log(x.domain());
 
+  //all bars
   svg.selectAll("rect")
     .data(data)
     .enter().append("rect")
@@ -71,6 +72,7 @@ function scatter(namez) {
     .style("fill", '#ccc') //function(d) { return d.color }
     .style('opacity', 0.2)
 
+  //averges bars
   svg.selectAll('.rectAvg')
     .data(avg)
     .enter()
@@ -82,6 +84,12 @@ function scatter(namez) {
     .attr('width', '3px')
     .style('fill', 'black')
 
+  // Add the X Axis
+  svg.append("g")
+    .attr("transform", "translate(0,22)")
+    .call(xAxis).select(".domain").remove(); //domain remove reomoves the horizontal bar
+
+  //text above bar
   svg.selectAll('text')
     .data(data)
     .enter()
@@ -101,10 +109,7 @@ function scatter(namez) {
     .attr("x", function(d) { return x(d[namez])-2; })
     .attr("y", 35)
 
-  // Add the X Axis
-  svg.append("g")
-    .attr("transform", "translate(0,22)")
-    .call(xAxis).select(".domain").remove(); //domain remove reomoves the horizontal bar
+  
 
  };
 
