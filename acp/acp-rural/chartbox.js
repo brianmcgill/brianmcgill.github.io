@@ -98,8 +98,8 @@ function scatter(namez) {
           return pctDecimal(d[namez]) + '%'
         }
       }) 
-    .attr("x", function(d) { return x(d[namez])+6; })
-    .attr("y", 15)
+    .attr("x", function(d) { return x(d[namez])-2; })
+    .attr("y", 35)
 
   // Add the X Axis
   svg.append("g")
