@@ -107,7 +107,7 @@ function scatter(namez) {
         }
       }) 
     .attr("x", function(d) { return x(d[namez])-2; })
-    .attr("y", 35)
+    .attr("y", 38)
 
   
 

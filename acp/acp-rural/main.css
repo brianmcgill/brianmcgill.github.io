@@ -109,7 +109,7 @@ hr {
 	fill: red;
 	paint-order: stroke;
     stroke: white;
-    stroke-width: 3px;
+    stroke-width: 10px;
     stroke-linecap: butt;
     stroke-linejoin: miter;
 }
