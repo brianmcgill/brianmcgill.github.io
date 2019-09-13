@@ -1,11 +1,13 @@
 text, body { font-family: Montserrat !important; }
 
-h5, h6 { margin-bottom: 0px !important; }
+h5 { margin-bottom: 0px !important; }
+
+h6 { margin: 0px !important; }
 
 #chart {
 	position: static;
   	width: 100%;
-  	max-width: 900px;
+  	max-width: 1100px;
   	height: auto;
   	
 }
@@ -64,21 +66,27 @@ hr {
 }
 
 
-.cbox-container {  position: relative; width: 100%;  margin: 25px auto 0;}
-//.combobox-container { margin-left: auto; }
+.cbox-container {  width: 100% !important;  margin-top: 25px;}
+.combobox { 
+	width: 87% !important; 
+	max-width: 320px; 
+}
+
+
 
 .scatterbox {
 	position: static;
 	width: 100%;
-	max-width: 900px;
+	max-width: 1100px;
 }
 
 .barbox {
 	position: static;
 	width: 100%;
-	max-width: 900px;
 	margin: 0 ;
 }
+
+.cty-big { margin-bottom: 8px; }
 
 .cty-hed {
 	font-size: 26px;
@@ -113,8 +121,4 @@ hr {
     stroke-linecap: butt;
     stroke-linejoin: miter;
 }
-
-
-
-
 

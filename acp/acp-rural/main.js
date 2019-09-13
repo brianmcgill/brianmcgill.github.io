@@ -293,7 +293,7 @@ function ready(error, us, rural) {
         .style('visibility', 'visible')
 
     d3.select('.cty-big').html("<span class='cty-hed'>" + ctyName + ', ' + stName + 
-                           "</span><span class='cty-cat'>" + typeName + "</span>" )
+                           "</span><span class='cty-cat'> " + typeName + "</span>" )
 
     tooltip.style("visibility", "hidden")
   });             

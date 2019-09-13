@@ -6,8 +6,7 @@ var dimB = parseInt(d3.select(".barbox").style("width")),
 
 // set the ranges
 var x = d3.scaleLinear().rangeRound([0, widthB]);
-var y = d3.scaleLinear().range([heightB, 0]);
-
+var y = d3.scaleLinear().range([heightB-100, 0]);
 
 d3.csv("data/acprural.csv", function(error, data) {
   if (error) throw error;
@@ -106,7 +105,13 @@ function scatter(namez) {
           return pctDecimal(d[namez]) + '%'
         }
       }) 
-    .attr("x", function(d) { return x(d[namez])-2; })
+    .attr("x", function(d) { 
+        //this checks to see if the text is close to the edge. if it is, moves it ober
+        if (x(d[namez]) > widthB-50 ) { return x(d[namez])-55; 
+        } else {
+          return x(d[namez])-2; 
+        }
+      }) 
     .attr("y", 38)
 
   
