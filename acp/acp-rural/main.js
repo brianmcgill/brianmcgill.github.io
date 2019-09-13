@@ -105,7 +105,10 @@ function ready(error, us, rural) {
     .on("mouseover", mouseover)
     .on("mousemove", mousemove)
     .on("mouseout", mouseout)
-    .on("click", click);
+    .on("click", function(d, i, a) {
+        if (typeId[d.id] === undefined ) {return null}  
+        else {  click(d, i, a) }
+    });
 
   g.append("path")
     .datum(topojson.mesh(us, us.objects.states, function(a, b) {
@@ -145,7 +148,7 @@ function ready(error, us, rural) {
 
   function mouseover(d) {
 
-    d3.selectAll('.ctyPath').attr('opacity', function(d) { return '0.15' })
+    d3.selectAll('.ctyPath').attr('opacity', 0.15); 
 
     d3.select(this).classed("selected", true);
 
@@ -183,8 +186,8 @@ function ready(error, us, rural) {
     tooltip.style("visibility", "hidden")
   };
 
-  function click(d) { 
-
+  function click(d, i, a) { 
+    
     d3.selectAll('.ctyRect').style('visibility', 'hidden')
       .style('stroke-width', 0)
       .style('opacity', 0.2) ;
@@ -192,12 +195,12 @@ function ready(error, us, rural) {
     d3.selectAll('.thisbartext')
         .style('visibility', 'hidden')
 
-    d3.selectAll('.ctyRect[ctyType="' + this.getAttribute('ctyType') + '"]')
+    d3.selectAll('.ctyRect[ctyType="' + a[i].getAttribute('ctyType') + '"]')
         .style('visibility', 'visible')
         .style('fill', function(d) { return '#'+ colorId[d.id]})
         .attr('opacity', 0.2) 
 
-    d3.selectAll('.ctyRect[fip="' + this.getAttribute('fip') + '"]')
+    d3.selectAll('.ctyRect[fip="' + a[i].getAttribute('fip') + '"]')
         .style('visibility', 'visible')
         .style('fill', 'red')
         .style('stroke', 'red')
@@ -208,7 +211,7 @@ function ready(error, us, rural) {
                      bringToFront(evt);
                   });;
 
-    d3.selectAll('.thisbartext[fip="' + this.getAttribute('fip') + '"]')
+    d3.selectAll('.thisbartext[fip="' + a[i].getAttribute('fip') + '"]')
         .style('visibility', 'visible')
 
     d3.select('.cty-big')
