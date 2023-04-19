@@ -26,7 +26,7 @@ $i=1;
 while (($file = readdir($dh)) !== false) {
     if($file != "." && $file != ".." && $file != "index.php" && $file != "index.html"&& $file != ".htaccess" && $file != "error_log" && $file != ".DS_Store") {
         echo "<div class='boxz'>
-                 <a href='$file' target=_blank'><img src='$file'></a>
+                 <a href='$file' target='_blank'><img src='$file'></a>
               </div>";
         //echo "<a href='$path/$file'>$file</a><br /><br />";
 
