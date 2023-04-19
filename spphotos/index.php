@@ -12,6 +12,7 @@
   echo "width: 200px;\n";
   echo "height: 150px;\n";
   echo "float:left;\n";
+  //echo "direction:ltr;\n";
   echo "margin-right:10px;\n";
   echo "margin-bottom:10px;\n";
   echo "}\n";
@@ -19,17 +20,17 @@
   echo "</style>\n";
 
 
-$path = "."; //images/pathname.jpg
+$path = "."; // "/images/"
 $dh = opendir($path);
 $i=1;
 while (($file = readdir($dh)) !== false) {
     if($file != "." && $file != ".." && $file != "index.php" && $file != "index.html"&& $file != ".htaccess" && $file != "error_log" && $file != ".DS_Store") {
         echo "<div class='boxz'>
-                 <a href='$file' target='_blank'><img src='$file'></a><br /><br />
+                 <a href='$file' target=_blank'><img src='$file'></a>
               </div>";
         //echo "<a href='$path/$file'>$file</a><br /><br />";
 
-        $i++;
+$i++;
     }
 }
 closedir($dh);

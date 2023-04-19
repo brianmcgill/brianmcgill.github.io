@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>View from the seat</title>
+
+	<style type="text/css">
+		img { width:100%; }
+
+		.boxz {
+			width: 200px;
+  			height: 150px;
+  			float:left;
+  			margin-right:10px;
+  			margin-bottom:10px;
+		}
+
+	</style>
+</head>
+<body>
+
+<?php
+
+	$path = "."; //images/pathname.jpg
+	$dh = opendir($path);
+	$i=1;
+	while (($file = readdir($dh)) !== false) {
+   	 	if($file != "." && $file != ".." && $file != "index.php" && $file != "index.html"&& $file != ".htaccess" && $file != "error_log" && $file != ".DS_Store") {
+        	echo "<div class='boxz'>
+                 	<a href='$file' target='_blank'><img src='$file'></a><br /><br />
+              	  </div>";
+          //echo "<a href='$path/$file'>$file</a><br /><br />";
+
+        $i++;
+	}
+}
+closedir($dh);
+?> 
+
+</body>
+</html>
